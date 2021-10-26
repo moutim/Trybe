@@ -1,0 +1,10 @@
+O que eu vou aprender na Trybe:
+CSS
+HTML
+GIT
+PHP
+Unix
+JavaScript
+Unix
+Bash
+Ciencia da computacao

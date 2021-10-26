@@ -1,0 +1,63 @@
+Resumo do dia 3 Git & GitHub
+
+Alguns comandos que vi hoje:
+
+📌️Lista de commits:
+ 	git log: mostra a lista de todos os commits feitos no repositorio atual, incluindo ID do commit, autor, data e hora, descricao do commit e em que branch foi feito.
+	
+📌️ Remover arquivo:	
+	git rm arquivo.txt: apaga arquivos do repositorio
+
+📌️ Recuperando arquivo deletado:
+	git log --diff-filter=D --summary 
+	Entendendo o codigo: --diff(ver o que tem de diferenca), filter=D(filtrar por arquivos que foram deletados), --summary(mostrar no terminal em forma de sumario).
+	Com o que foi retornado, vamos copiar os 4 primeiros numeros do ID.
+
+📌️ Voltando a um commit feito:
+	git checkout 8489~1 arquivo.txt:
+	Entendendo o codigo: checkout(mudar para o commit), 8489(4 primeiros numeros do ID), ~1(o numero de ID passa a ser verdadeiro), arquivo.txt(arquivo que quer voltar).
+	Lembrar de sempre fazer um commit depois de recuperar arquivos.
+	
+📌️ Ignorar arquivos ou diretorios com .gitignore:
+	touch .gitignore
+		cat >> .gitignore
+		arquivo.txt
+		*.txt
+		backup/
+	Entendendo o codigo: criar o arquivo .gitignore e colocar dentro dele arquivos ou diretorios que vao ser ignorados ao fazer commits.		
+	
+📌️ Ignorando arquivos desnecessarios do VSCode:
+	Site para criacao de arquivos .gitignore: https://www.toptal.com/developers/gitignore/api/visualstudiocode	
+		
+	# Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode
+	# Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode
+
+	### VisualStudioCode ###
+	.vscode/*
+	!.vscode/settings.json
+	!.vscode/tasks.json
+	!.vscode/launch.json
+	!.vscode/extensions.json
+	*.code-workspace
+
+	# Local History for Visual Studio Code
+	.history/
+
+	### VisualStudioCode Patch ###
+	# Ignore all local history of files
+	.history
+	.ionide
+
+	# End of https://www.toptal.com/developers/gitignore/api/visualstudiocode
+	
+📌️ Deletando branch:
+	git fetch --prune = apaga o branch remoto (ja excluido do GitHub)
+	git fetch -d nomeDoBrach = apaga o branch local
+
+📌️ Subindo arquivos para o repositorio:
+	git push
+	
+📌️ Juntando dois arquivos de pessoas diferentes:
+	git pull	
+	
+	

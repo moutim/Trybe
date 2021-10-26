@@ -1,0 +1,12 @@
+Criando bracnh e fazendo commit em algo = 
+git branch vitor
+	git checkout vitor
+		cat >> comidas-boas.txt
+		Quarteirao com queijo
+			git add comidas-boas.txt	
+				git commit -m "Adiconando quarteirao com queijo"
+		
+Fazendo merge de branchs = 
+git checkout master
+	git merge vitor
+	

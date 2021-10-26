@@ -1,0 +1,30 @@
+1 - Navegue até a raiz do projeto com o arquivo .txt;
+R: cd 'Dia 1'
+
+2 - Verifique se não existe nada sem "commitar" utilizando git status;
+R: //
+
+3 - Crie uma nova branch com o nome trybe-skills-changes e faça checkout nela; Adicione mais duas habilidades na lista e de commit;
+R: git branch trybe-skills-changes
+	git checkout trybe-skills-changes
+		code skills.txt
+			git add skills.txt
+				git commit -m "Atualizando lista de linguagens."
+					git push -u origin trybe-skills-changes
+					
+4 - Abra um Pull Request com uma descrição detalhada:
+R: Feito pelo site do GitHub
+
+5 - Retorne para a branch principal, master , com o comando: git checkout master ;
+R: git checkout master 					
+
+6 - Crie uma nova branch trybe-skills-updates a partir da master e faça checkout nela;
+R: git branch trybe-skills-updates
+	git checkout trybe-skills-updates
+	
+7 - No mesmo arquivo .txt que você modificou no passo 4 , também ao final da sua lista de habilidades, adicione mais um aprendizado que você terá nos próximos blocos;
+R: code skills.txt
+	git add skills.txt
+		git commit -m "Adicionando mais um item a lista."	
+		
+8 - Agora, faça o merge das branches trybe-skills-changes e trybe-skills-updates na branch master , através do Pull Request :		

@@ -1,0 +1,36 @@
+1 - Liste todos os processos;
+R:jobs
+	
+	
+2 - Agora use o comando sleep 30 & ;
+R:sleep 30 &
+
+
+3 - Use a listagem de processos para encontrar o PID do processo que está executando o comando sleep 30 e termine a sua execução (mate o processo) ;
+R:  ps
+	kill "numero processo"
+
+4 - Execute novamente o comando sleep 30 , mas agora sem o & . Depois, faça com que ele continue executando em background;
+R: sleep 30 &
+	crtl z = coloca o processo atual em espera e segundo plano
+
+5 - Crie um processo em background que rode o comando sleep por 300 segundos.
+R: sleep 300 &
+
+
+6 - Crie mais dois processos que rodem o comando sleep por 200 e 100 segundos, respectivamente.
+R: sleep 200 | sleep 100
+
+
+7 - Verifique que apenas o processo sleep 300 está em execução com o comando jobs . Suspenda a execução desse processo.
+R: jobs
+	fg %"numero do processo"
+	
+
+8 - Retome a execução do processo sleep 100 em background com o comando bg .	
+R: bg %"numero do processo"
+
+9 - Termine a execução de todos os processos sleep (mate os processos) .
+R: kill %"numero dos processos"
+	
+

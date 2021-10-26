@@ -1,0 +1,59 @@
+Mostre na tela as 5 primeiras skills do arquivo skills.txt . = head -5 skills.txt
+Excluir pastas com coisas dentro ou com erro = RM -RF BACKUP
+Abrir o VsCode = code "nome do arquivo" OU code
+Apagar todos os arquivos com extensao .txt = * serve como simbolo coringa, ele substitui tudo que esta a esquerda do arquivo. Entao fica: RM -RF *.TXT
+Mover um arquivo para a pasta aonde eu estou: O "." VAI SERVIR PARA COLOCAR O ARQUIVO AONDE VOCE ESTA NO TERMINAL /MV BACKUP/SKILLS.TXT .
+Contar palavras e caracteres em arquivos = wc -c = CARACTERES / wc -w = PALAVARAS/WORDS // wc -l = LINES/ PALAVRAS POR LINHA
+Pesquisar palavras em arquivos = grep Brazil countries.txt / colocando -i podemos colocar a palavra toda em minuscula que ela nos retorna tambem. grep -i brazil countries.txt
+
+
+PERMISSOES E AS LETRAS CORRESPONDENTES: /VER AS PERMISSOES/ ls -l
+VER PASTAS OCULTAS = ls -a
+R = READ/LER - VOCE PODER LER
+W = WRITE/ESCREVER - PODE ALTERAR O VALOR DO ARQUIVO
+X = EXECUTE/EXUCUTAR - PODE EXECUTAR O ARQUIVO A PARTIR DO CD
+- = "-" NO COMECO = ARQUIVO COMUM
+D = "D" NO COMECO = DIRETORIO
+Adiconar ou remover permissoes de um arquivo = 
+chmod u = modifica as permissoes do meu usuario
+chmod g = modifica as permissoes do grupo
+chmod a = modifica as permissoes de todos 
+chmod u- = tira permissao
+chmod u+ = adiciona permissao
+chmod u= = mantem as permissoes
+//TABELA DE COMANDOS PARA PERMISSAO
+rwx = 111 ( 7 | Acesso Total )
+r-- = 100 ( 4 | Somente Leitura )
+-w- = 010 ( 2 | Somente Escrita )
+--x = 001 ( 1 | Somente Execução )
+rw- = 110 ( 6 | Somente Leitura e Escrita )
+r-x = 101 ( 5 | Somente Leitura e Execução )
+-wx = 011 ( 3 | Somente Escrita e Execução )
+--- = 000 ( 0 | Todos Acessos Negados )
+
+//PESQUISAR ARQUIVOS EM DIRETORIOS
+# Para listar todos os arquivos que terminam em .txt
+find . -name "*.txt"
+
+# Para localizar todos os diretórios
+find . -type d
+
+# Para localizar todos os arquivos
+find . -type f
+
+# Localizar tanto arquivos quanto diretórios que comecem
+# por algum trecho
+find ./teste -name exemplo*
+# Resultado
+./teste/exemplo.txt
+./teste/exemplo
+
+# Localizar somente arquivos que comecem por algum trecho
+find ./teste -type f -name "exemplo*"
+# Resultado
+./teste/exemplo.txt
+
+# Localizar somente diretórios que comecem por algum trecho
+find ./teste -type d -name "exemplo*"
+# Resultado
+./teste/exemplo
