@@ -16,8 +16,8 @@ O programa conta com mais de 1.500 horas de aulas práticas e teóricas, aborda 
 ##### Bloco 2: Git & GitHub
 
 - [22-10-21:white_check_mark:] 2-1: _O que é e para que serve?_
-- [ ] 2-2: _Entendendo os comandos_
-- [ ] 2-3: _Internet - Entendendo como ela funciona_
+- [25-10-21:white_check_mark:] 2-2: _Entendendo os comandos_
+- [26-10-21:white_check_mark:] 2-3: _Internet - Entendendo como ela funciona_
 
 ##### Bloco 3: Introdução - HTML & CSS
 
