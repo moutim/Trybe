@@ -1,0 +1,29 @@
+body{
+    font-size: 16px;
+}
+h1{
+    font-size: 65px;
+    color: orange;
+    font-family: sans-serif;
+}
+ul{
+    background-color: black;
+    line-height: 30px;
+}
+.cor-de-fundo{
+    background-color: aqua;
+}
+p{
+    font-weight: 600;
+    font-size: 3em;
+    font-style: italic;
+}
+.li-amarelo{
+    background-color: yellow;
+}
+.li-vermelho{
+    background-color: red;
+}
+.li-marrom{
+    background-color: brown;
+}
