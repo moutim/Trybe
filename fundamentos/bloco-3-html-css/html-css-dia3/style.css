@@ -26,7 +26,10 @@
     border: 5px solid black;
   }
 
+/* --------------------------- */
+  .posicionamento{
 
+  }
   .super-mario {
     width: 200px;
     position: absolute;
@@ -61,4 +64,20 @@
     left: 430px;
     top: 300px;
     z-index: 1;
+  }
+
+  /* -------------------------- */
+  .lista-sites{
+      position: absolute;
+      top: 700px;
+      text-align: center;
+  }
+  ol, ul{
+      list-style: none;
+  }
+  ol li:hover{
+    background-color: green;
+  }
+  ul li:active{
+    background-color: blue;
   }
