@@ -72,13 +72,16 @@
       top: 700px;
       text-align: center;
   }
-  ol, ul{
+  .lista-sites ol{
       list-style: none;
   }
-  ol li:hover{
+  .lista-sites ul{
+      list-style: none;
+  }
+  .lista-sitesol li:hover{
     background-color: green;
   }
-  ul li:active{
+  .lista-sitesul li:active{
     background-color: blue;
   }
   
@@ -111,3 +114,63 @@
       background-color: lightcoral;
       font-style: italic;
   }
+
+  /* ----------------------------- */
+  .seletores-posicionamento{
+      position: absolute;
+      top: 1500px;
+  }
+  .seletores-posicionamento ol li{
+      background-color: yellow;
+  }
+  .seletores-posicionamento ol li:nth-child(even){
+      color: green;
+  }
+  .seletores-posicionamento ol li:nth-child(odd){
+    text-transform: uppercase;
+  }
+  .seletores-posicionamento h1, h3{
+    color: red;
+  }
+  .seletores-posicionamento h1 em{
+    font-size: 40px;
+    border: 1px solid black;
+  }
+  .seletores-posicionamento li{
+    font-size: 20px;
+  }
+  .seletores-posicionamento li em{
+    font-weight: 700;
+  }
+  .seletores-posicionamento ul li:nth-child(-n+3){
+    color: blue;
+  }
+  .seletores-posicionamento span{
+    background-color: pink;
+  }
+  #stack:hover{
+    font-weight: 700;
+    color: orange;
+  }
+  #w3:hover{
+    font-weight: 700;
+    color: green;
+  }
+  #mdn:hover{
+    font-weight: 700;
+    color: black;
+  }
+  #dev:hover{
+    font-weight: 700;
+    color: yellow;
+  }
+  #trybe:hover{
+    font-weight: 700;
+    color: green;
+  }
+
+
+
+
+  /* Referencias do nth-child() */
+  /* https://developer.mozilla.org/pt-BR/docs/Web/CSS/:nth-child */
