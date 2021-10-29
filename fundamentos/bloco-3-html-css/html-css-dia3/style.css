@@ -81,3 +81,33 @@
   ul li:active{
     background-color: blue;
   }
+  
+  /* --------------------- */
+  .paleta-cores{
+      position: absolute;
+      top: 1100px;
+      text-align: center;
+  }
+  .paleta-cores div:hover{
+    border: 5px solid #f0f;
+  }
+  #div-1{
+      background-color: red;
+      font-style: italic;
+  }
+  #div-2{
+      background-color: purple;
+  }
+  #div-3{
+      height: 100px;
+      background-color: royalblue;
+      font-style: italic;
+  }
+  #div-4{
+      background-color: black;
+      color: white;
+  }
+  #div-5{
+      background-color: lightcoral;
+      font-style: italic;
+  }
