@@ -1,0 +1,176 @@
+.caixa {
+    color: white;
+    display: inline-block;
+    line-height: 50px;
+    text-align: center;
+    vertical-align: top;
+  }
+  
+  .width-and-height {
+    height: 50px;
+    width: 50px;
+  }
+  
+  /* insira na classe abaixo um padding de 20px para aplicá-lo aos itens B, C e D */
+  .padding {
+    padding: 20px;
+  }
+  
+  /* insira na classe abaixo uma margem de 30px para aplicá-la aos itens C e D */
+  .margin {
+    margin: 30px;
+  }
+  
+  /* insira na classe abaixo uma borda com valor '5px solid black' para aplicá-la ao item D */
+  .border {
+    border: 5px solid black;
+  }
+
+/* --------------------------- */
+  .posicionamento{
+
+  }
+  .super-mario {
+    width: 200px;
+    position: absolute;
+    left: 50px;
+  }
+  
+  .goomba {
+    width: 100px;
+    position: absolute;
+    top: 550px;
+    left: 100px;
+  }
+  
+  .baloon {
+    position: absolute;
+    left: 280px;
+    width: 170px;
+    z-index: 3;
+  }
+  
+  .speach {
+    font-size: 20px;
+    position: absolute;
+    left: 310px;
+    z-index: 4;
+    width: 100px;
+  }
+  
+  .bowser {
+    width: 250px;
+    position: absolute;
+    left: 430px;
+    top: 300px;
+    z-index: 1;
+  }
+
+  /* -------------------------- */
+  .lista-sites{
+      position: absolute;
+      top: 700px;
+      text-align: center;
+  }
+  .lista-sites ol{
+      list-style: none;
+  }
+  .lista-sites ul{
+      list-style: none;
+  }
+  .lista-sitesol li:hover{
+    background-color: green;
+  }
+  .lista-sitesul li:active{
+    background-color: blue;
+  }
+  
+  /* --------------------- */
+  .paleta-cores{
+      position: absolute;
+      top: 1100px;
+      text-align: center;
+  }
+  .paleta-cores div:hover{
+    border: 5px solid #f0f;
+  }
+  #div-1{
+      background-color: red;
+      font-style: italic;
+  }
+  #div-2{
+      background-color: purple;
+  }
+  #div-3{
+      height: 100px;
+      background-color: royalblue;
+      font-style: italic;
+  }
+  #div-4{
+      background-color: black;
+      color: white;
+  }
+  #div-5{
+      background-color: lightcoral;
+      font-style: italic;
+  }
+
+  /* ----------------------------- */
+  .seletores-posicionamento{
+      position: absolute;
+      top: 1500px;
+  }
+  .seletores-posicionamento ol li{
+      background-color: yellow;
+  }
+  .seletores-posicionamento ol li:nth-child(even){
+      color: green;
+  }
+  .seletores-posicionamento ol li:nth-child(odd){
+    text-transform: uppercase;
+  }
+  .seletores-posicionamento h1, h3{
+    color: red;
+  }
+  .seletores-posicionamento h1 em{
+    font-size: 40px;
+    border: 1px solid black;
+  }
+  .seletores-posicionamento li{
+    font-size: 20px;
+  }
+  .seletores-posicionamento li em{
+    font-weight: 700;
+  }
+  .seletores-posicionamento ul li:nth-child(-n+3){
+    color: blue;
+  }
+  .seletores-posicionamento span{
+    background-color: pink;
+  }
+  #stack:hover{
+    font-weight: 700;
+    color: orange;
+  }
+  #w3:hover{
+    font-weight: 700;
+    color: green;
+  }
+  #mdn:hover{
+    font-weight: 700;
+    color: black;
+  }
+  #dev:hover{
+    font-weight: 700;
+    color: yellow;
+  }
+  #trybe:hover{
+    font-weight: 700;
+    color: green;
+  }
+
+
+
+
+  /* Referencias do nth-child() */
+  /* https://developer.mozilla.org/pt-BR/docs/Web/CSS/:nth-child */
