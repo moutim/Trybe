@@ -1,0 +1,86 @@
+body{
+    background-color: #8DB580;
+    font-size: 18px;
+    font-family: Ubuntu;
+}
+.requisito-1{
+    font-family: monospace;
+}
+strong{
+    color: #EC7505;
+}
+em{
+    font-weight: 600;
+    color: #EC7505;
+}
+.ultimo-bloco ul li:nth-of-type(1){
+    font-size: 1.6em;
+    display: inline-block;
+    border-bottom: 3px solid #A62639;
+    border-top: 3px solid #A62639;
+}
+.ultimo-bloco ul li:nth-of-type(2){
+    font-size: 1.5em;
+}
+.ultimo-bloco ul li:nth-of-type(3){
+    font-size: 1.4em;
+    display: inline-block;
+    border-bottom: 3px solid #A62639;
+    border-top: 3px solid #A62639;
+}
+.cor-titulos{
+    color: #A62639;
+}
+ul, ol{
+    line-height: 40px;
+    font-size: 1.5em;
+    list-style: none;
+    text-transform: uppercase;
+}
+ol li{
+    display: inline;
+    padding: 0 10px;
+}
+li a{
+    text-decoration:none;
+    font-weight: 700;
+    padding: 7px 15px;
+    border-radius: 30px;
+    background-color: black;
+    color: #A62639;
+}
+li a:hover{
+    font-size: 1.1em;
+}
+img{
+    border-radius: 15%;
+}
+.bloco-grande{
+    margin: auto;
+    text-align: center;
+}
+div img{
+    position: absolute;
+    left: 650px;
+    top: 270px;
+}
+.bloco-informacoes{
+    width: 300px;
+    position: absolute;
+    left: 900px;
+    top: 260px;
+}
+div h1{
+    text-align: center;
+}
+div img{
+    padding: 10px;
+    background-color: #390099;
+}
+
+.ultimo-bloco{
+    width: 95%;
+    margin: auto;
+    position: absolute;
+    top: 630px;
+}
