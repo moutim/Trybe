@@ -24,7 +24,7 @@ O programa conta com mais de 1.500 horas de aulas práticas e teóricas, aborda 
 - [27-10-21:white_check_mark:] 3-1: _HTML & CSS - Estruturas de página_
 - [28-10-21:white_check_mark:] 3-2: _HTML & CSS - Primeiros passos em CSS_
 - [29-10-21:white_check_mark:] 3-3: _HTML & CSS - Seletores e posicionamento_
-- [ ] 3-4: _HTML Semântico_
+- [03-11-21:white_check_mark:] 3-4: _HTML Semântico_
 - [ ] 3-5: _[Projeto - HTML & CSS]()_
 
 ##### Bloco 4: Introdução - JavaScript
