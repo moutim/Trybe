@@ -44,3 +44,16 @@ for(let i = 0; i < numbers.length; i += 1){
      }
 }
 console.log(maior);
+
+
+
+// 6 - Descubra quantos valores ímpares existem no array e imprima o resultado. Caso não exista nenhum, imprima a mensagem: "nenhum valor ímpar encontrado";
+let impar = 0;
+for(let i = 0; i < numbers.length; i += 1){
+    if ((numbers[i] % 2) !==0) {
+        impar += 1;
+    } else if (impar == 0) {
+         console.log('Nenhum valor ímpar encontrado');
+    }
+}
+console.log(impar);
