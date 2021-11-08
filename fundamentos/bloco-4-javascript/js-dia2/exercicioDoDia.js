@@ -80,3 +80,11 @@ for(let i = 25; i > 0; i-= 1){
 }
 console.log(numeros);
 
+
+
+// 9 - Utilizando o array criado no exercício anterior imprima o resultado da divisão de cada um dos elementos por 2:
+let divisao;
+for (let i = 0; i < numeros.length; i += 1){
+    divisao = numeros[i] / 2;
+    console.log(divisao);
+}
