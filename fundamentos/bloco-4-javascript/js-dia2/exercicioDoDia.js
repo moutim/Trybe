@@ -68,3 +68,15 @@ for(let i = 0; i < numbers.length; i += 1){
     }
 }
 console.log(menor);
+
+
+
+// 8 - Utilizando for , crie um array que vá de 1 até 25 e imprima o resultado:
+let numeros = [];
+let numero = 0;
+for(let i = 25; i > 0; i-= 1){
+    numero += 1;
+    numeros.push(numero)
+}
+console.log(numeros);
+
