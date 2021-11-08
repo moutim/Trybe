@@ -57,3 +57,14 @@ for(let i = 0; i < numbers.length; i += 1){
     }
 }
 console.log(impar);
+
+
+
+// 7 - Utilizando for , descubra qual o menor valor contido no array e imprima-o:
+let menor = 100000;
+for(let i = 0; i < numbers.length; i += 1){
+    if ( numbers[i] < menor ) {
+        menor = numbers[i];
+    }
+}
+console.log(menor);
