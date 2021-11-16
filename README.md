@@ -31,13 +31,13 @@ O programa conta com mais de 1.500 horas de aulas práticas e teóricas, aborda 
 
 - [05-11-21:white_check_mark:] 4-1: _JavaScript - Primeiros passos_
 - [08-11-21:white_check_mark:] 4-2: _JavaScript - Array e loop For_
-- [ ] 4-3: _JavaScript - Lógica de Programação e Algoritmos_
-- [ ] 4-4: _JavaScript - Objetos e funções_
-- [ ] 4-5: _[Projeto - Playground Functions]()_
+- [09-11-21:white_check_mark:] 4-3: _JavaScript - Lógica de Programação e Algoritmos_
+- [10-11-21:white_check_mark:] 4-4: _JavaScript - Objetos e funções_
+- [11-11-21:white_check_mark:] 4-5: _[Projeto - Playground Functions]()_
 
 ##### Bloco 5: Introdução - JavaScript - Projetos
 
-- [ ] 5-1: _JavaScript - DOM e seletores_
+- [16-11-21:white_check_mark:] 5-1: _JavaScript - DOM e seletores_
 - [ ] 5-2: _JavaScript - Trabalhando com elementos_
 - [ ] 5-3: _JavaScript - Eventos_
 - [ ] 5-4: _JavaScript - Web Storage_
