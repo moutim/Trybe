@@ -45,3 +45,11 @@ function paragrafoMaiusculo () {
     }
 }
 paragrafoMaiusculo();
+
+function exibeParagrafo () {
+    let paragrafo = document.getElementsByTagName("p");
+    for (let i =0; i < paragrafo.length; i +=1) {
+        console.log(paragrafo[i].innerText);
+    }
+}
+exibeParagrafo();
