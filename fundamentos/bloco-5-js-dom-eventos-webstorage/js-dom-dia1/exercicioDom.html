@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <header>
+      <h2 id="page-title">Título</h2>
+      <p id="paragraph">Dê uma cor para este parágrafo!</p>
+      <h4 id="subtitle">Subtítulo</h4>
+      <p id="second-paragraph">Segundo parágrafo!</p>
+    </header>
+    <script>
+      const paragraph = document.getElementById("paragraph");
+      paragraph.style.color = "red";
+      paragraph.innerText = "Um filme de: Quentin Tarantino"
+
+      let titulo = document.getElementById("page-title");
+      titulo.innerText = "Pulp-Fiction"
+      
+      let segundoParagrafo = document.getElementById("second-paragraph");
+      segundoParagrafo.innerText = "ENGLISH MOTHER FUCKER, DO YOU SPEAK IT?";
+      segundoParagrafo.style.color = "purple";
+
+      let subTitulo = document.getElementById("subtitle");
+      subTitulo.innerText = 'Frases famosas do filme: '
+    </script>
+  </body>
+</html>
