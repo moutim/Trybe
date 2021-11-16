@@ -19,4 +19,9 @@ function paragrafo () {
     paragrafo[2].innerText = "Vitor Moutim - 2021"
 };
 paragrafo();
- 
+
+function blockYellow () {
+    let bloco = document.getElementsByClassName("main-content");
+    bloco[0].style.backgroundColor = 'rgb(76,164,109)';
+};
+blockYellow();
