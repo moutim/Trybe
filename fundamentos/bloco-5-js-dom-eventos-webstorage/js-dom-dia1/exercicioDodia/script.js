@@ -25,3 +25,9 @@ function blockYellow () {
     bloco[0].style.backgroundColor = 'rgb(76,164,109)';
 };
 blockYellow();
+
+function blockRed () {
+    let bloco = document.getElementsByClassName("center-content");
+    bloco[0].style.backgroundColor = 'white';
+}
+blockRed();
