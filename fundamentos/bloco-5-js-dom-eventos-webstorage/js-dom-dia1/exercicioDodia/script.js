@@ -31,3 +31,9 @@ function blockRed () {
     bloco[0].style.backgroundColor = 'white';
 }
 blockRed();
+
+function corrigeTitulo () {
+    let titulo = document.getElementsByTagName("h1");
+    titulo[0].innerText = 'Exercício 5.1 - JavaScript';
+}
+corrigeTitulo();
