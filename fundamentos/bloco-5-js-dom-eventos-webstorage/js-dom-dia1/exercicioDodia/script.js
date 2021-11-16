@@ -37,3 +37,11 @@ function corrigeTitulo () {
     titulo[0].innerText = 'Exercício 5.1 - JavaScript';
 }
 corrigeTitulo();
+
+function paragrafoMaiusculo () {
+    let paragrafo = document.getElementsByTagName("p");
+    for (let i =0; i < paragrafo.length; i +=1) {
+        paragrafo[i].style.textTransform = 'uppercase';
+    }
+}
+paragrafoMaiusculo();
