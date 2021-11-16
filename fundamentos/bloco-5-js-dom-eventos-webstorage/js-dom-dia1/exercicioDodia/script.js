@@ -11,8 +11,12 @@
  Crie uma função que exiba o conteúdo de todas as tags <p> no console.
         */
 
-let paragrafo = document.getElementsByTagName("p");
-paragrafo[0].innerText = "Como me vejo daqui a dois anos?";
-paragrafo[0].style.fontWeight = 700;
-paragrafo[1].innerHTML = "Um programador pleno em uma boa empresa.";
-paragrafo[2].innerText = "Vitor Moutim - 2021"
+function paragrafo () {
+    let paragrafo = document.getElementsByTagName("p");
+    paragrafo[0].innerText = "Como me vejo daqui a dois anos?";
+    paragrafo[0].style.fontWeight = 700;
+    paragrafo[1].innerHTML = "Um programador pleno em uma boa empresa.";
+    paragrafo[2].innerText = "Vitor Moutim - 2021"
+};
+paragrafo();
+ 
