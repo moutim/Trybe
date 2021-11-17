@@ -22,3 +22,27 @@ console.log(document.getElementById('elementoOndeVoceEsta').nextSibling);
 console.log(document.getElementById('elementoOndeVoceEsta').nextElementSibling);
 
 console.log(document.getElementById('pai').lastElementChild.previousElementSibling);
+
+// --------------------------------
+
+// 1 - Crie um irmão para elementoOndeVoceEsta .
+// 2 - Crie um filho para elementoOndeVoceEsta .
+// 3 - Crie um filho para primeiroFilhoDoFilho .
+// 4 - A partir desse filho criado, acesse terceiroFilho .
+
+let pai = document.getElementById('pai');
+let irmao = document.createElement('section');
+irmao.id = 'elemento-irmao';
+pai.appendChild(irmao)
+
+let segundoPai = document.getElementById('elementoOndeVoceEsta');
+let filho = document.createElement('div');
+filho.id = 'filho';
+segundoPai.appendChild(filho);
+
+let terceiroPai = document.getElementById('primeiroFilhoDoFilho');
+let segundoFilho = document.createElement('div');
+segundoFilho.id = 'segundo-filho';
+terceiroPai.appendChild(segundoFilho);
+
+console.log(document.getElementById('segundo-filho').parentElement.parentElement.nextElementSibling);
