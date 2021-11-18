@@ -100,6 +100,7 @@
     sectionTres.appendChild(ul);
     for (let i =1; i <= 10; i +=1) {
         let li = document.createElement('li');
+        li.className = 'li-numeros';
         li.innerText = i;
         ul.appendChild(li);
     }
@@ -134,6 +135,10 @@
 
     // Troque a cor de fundo do elemento pai da section criada no passo 3 (aquela que possui a classe center-content ) para a cor verde
     section.style.backgroundColor = 'green';
+
+    // Remova os dois últimos elementos ( nove e dez ) da lista criada no passo 8
+    ul.lastChild.remove();
+    ul.lastChild.remove();
     
     </script>
   </body>
