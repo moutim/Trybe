@@ -46,3 +46,18 @@ segundoFilho.id = 'segundo-filho';
 terceiroPai.appendChild(segundoFilho);
 
 console.log(document.getElementById('segundo-filho').parentElement.parentElement.nextElementSibling);
+
+// ------------------------
+const paiD = document.getElementById('pai');
+console.log(paiD.childNodes);
+
+    for (let index = paiD.childNodes.length - 1; index >= 0; index -= 1) {
+      const currentChildren = paiD.childNodes[index];
+      if (currentChildren.id !== 'elementoOndeVoceEsta') {
+        currentChildren.remove();
+      }
+    }
+
+    const segundoEUltimoFilhoDoFilho = document.getElementById('segundoEUltimoFilhoDoFilho');
+    segundoEUltimoFilhoDoFilho.remove();
+    console.log(paiD);
