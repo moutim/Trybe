@@ -125,3 +125,18 @@ function taskSelect () {
     }
 }
 divTask.addEventListener('click', taskSelect);
+
+
+// Implemente uma função que adiciona um evento que, ao clicar em um dia do mês no calendário, atribua a este dia a cor da legenda da sua tarefa selecionada
+function taskDay (evento){
+    let selecionado = evento.target;
+    let corTask = divTask.style.backgroundColor;
+    let corSelecionado = selecionado.style.color;
+    
+    if (corSelecionado === corTask) {
+        selecionado.style.color = 'rgb(119,119,119)';
+    } else if (divTask.className === 'task selected') {
+        selecionado.style.color = corTask;
+    }
+}
+ulDays.addEventListener('click', taskDay);
