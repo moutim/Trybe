@@ -28,3 +28,13 @@ for (let i =0; i < dezDaysList.length; i +=1) {
     liDays.innerText = dezDaysList[i];
     ulDays.appendChild(liDays);
 }
+
+// Implemente uma função que receba como parâmetro a string "Feriados" e crie dinamicamente um botão com o nome "Feriados"
+let buttonContainer = document.getElementsByClassName('buttons-container')[0];
+function criaBotao(feriados) {
+    let botao = document.createElement('button');
+    botao.id = 'btn-holiday';
+    botao.innerText = feriados;
+    buttonContainer.appendChild(botao);
+}
+criaBotao('Feriados');
