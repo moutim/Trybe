@@ -54,3 +54,12 @@ function destacaFeriado(){
 }
 botaoFeriado.addEventListener('click', destacaFeriado);
 
+
+// Implemente uma função que receba como parâmetro a string "Sexta-feira" e crie dinamicamente um botão com o nome "Sexta-feira"
+function botaoSexta(sextaFeira){
+    let botaoSexta = document.createElement('button');
+    botaoSexta.id = 'btn-friday';
+    botaoSexta.innerText = sextaFeira;
+    buttonContainer.appendChild(botaoSexta);
+}
+botaoSexta('Sexta-feira');
