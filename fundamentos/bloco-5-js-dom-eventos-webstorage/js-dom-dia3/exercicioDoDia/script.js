@@ -79,3 +79,16 @@ function mudaSexta(){
     }
 }
 btnSexta.addEventListener('click', mudaSexta);
+
+
+// Implemente duas funções que criem um efeito de "zoom". Ao passar o ponteiro do mouse em um dia do mês no calendário, o texto desse dia deve aumentar e, quando o ponteiro do mouse sair do dia, o texto deve retornar ao tamanho original
+function zoomIn (evento){
+    let foco = evento.target;
+    foco.style.fontSize = '27px';
+}
+function zoomOut (evento){
+    let foco = evento.target;
+    foco.style.fontSize = '20px';
+}
+ulDays.addEventListener('mouseover', zoomIn);
+ulDays.addEventListener('mouseout', zoomOut);
