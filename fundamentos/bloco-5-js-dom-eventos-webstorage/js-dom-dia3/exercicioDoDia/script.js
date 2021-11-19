@@ -63,3 +63,19 @@ function botaoSexta(sextaFeira){
     buttonContainer.appendChild(botaoSexta);
 }
 botaoSexta('Sexta-feira');
+
+
+// Implemente uma função que adicione ao botão "Sexta-feira" um evento de "click" que modifica o texto exibido nos dias que são Sexta-feira
+let btnSexta = document.getElementById('btn-friday');
+let liFriday = document.getElementsByClassName('friday');
+let daysFriday = [4,11,18,25];
+function mudaSexta(){
+    for (let i =0; i < liFriday.length; i +=1) {
+        if (liFriday[i].innerText === `SEXTOU (͡° ͜ʖ ͡°)`) {
+            liFriday[i].innerText = daysFriday[i];
+        } else {
+            liFriday[i].innerText = `SEXTOU (͡° ͜ʖ ͡°)`;
+        }
+    }
+}
+btnSexta.addEventListener('click', mudaSexta);
