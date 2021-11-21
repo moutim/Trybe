@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
 header {
     width: 65%;
     margin: auto;
     text-align: center;
 }
+/* ----- configs gerais ------ */
 section, hr {
     width: 70%;
     display: flex;
@@ -14,19 +18,37 @@ article {
     display: flex;
     flex-direction: column;
 }
-h2, h3, h4 {
+h1, h2, h3, h4 {
     text-align: center;
+    font-family: Montserrat Alternates;
 }
-ul, li {
-    display: flex;
+/* ------ configs da area de personalizacao -------- */
+li {
+    display: inline-block;
+    list-style: none;
     padding: 0 5px;
 }
 section div {
     margin-bottom: 20px;
+    width: 45%;
+    text-align: center;
 }
 input {
     padding: 15px;
     border: none;
     box-shadow: black 0 0 5px inset;
     border-radius: 20px;
+}
+.section-mudancas{
+    display: flex;
+    flex-wrap: wrap;
+}
+#fonte-1{
+    font-family: monospace;
+}
+#fonte-2{
+    font-family: Indie Flower;
+}
+#fonte-3{
+    font-family:Architects Daughter;
 }
