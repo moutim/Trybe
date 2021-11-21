@@ -39,6 +39,19 @@ input {
     box-shadow: black 0 0 5px inset;
     border-radius: 20px;
 }
+button {
+    padding: 7px 20px;
+    margin: 5px 0;
+    background-color: red;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    transition: .5s;
+}
+button:hover{
+    cursor: pointer;
+    background-color: tomato;
+}
 .section-mudancas{
     display: flex;
     flex-wrap: wrap;
