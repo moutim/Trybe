@@ -29,8 +29,8 @@
             <input type="text" name="cidade" id="cidade" required maxlength="28">
                 <br>
             <label for="estado">Selecione seu estado: </label>
-            <select name="estado" id="estado">
-                <option value="" required></option>
+            <select name="estado" id="estado" required>
+                <option value=""></option>
             </select>
                 <br>
             <label for="tipo">Você mora em: </label>
@@ -38,10 +38,25 @@
                 <input type="radio" name="tipo" id="casa" value="casa">Casa
             </label>
             <label for="apt">
-            <   input type="radio" name="tipo" id="apt" value="apt">Apartamento
+                <input type="radio" name="tipo" id="apt" value="apt">Apartamento
             </label>
-
         </fieldset>
+
+        <fieldset>
+            <legend>Último emprego: </legend>
+            <label for="resumo">Resumo do currículo: </label> <br>
+            <textarea name="resumo" id="resumo" required maxlength="1000" cols="20" rows="5"></textarea>
+                <br>
+            <label for="cargo">Cargo: </label>
+            <input type="text" name="cargo" id="cargo" required maxlength="40">
+                <br>
+            <label for="descricao">Descrição do cargo: </label> <br>
+            <input type="text" name="desc-cargo" id="desc-cargo" required maxlength="500">
+                <br>
+            <label for="data">Data de inicio: </label>
+            <input type="text" name="data" id="data" required placeholder="Insira no formato dd/mm/aaaa">
+        </fieldset>
+        <button type="submit" id="enviar">Enviar</button>
     </form>
 
     <script src="script.js"></script>
