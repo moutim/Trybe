@@ -1,32 +1,32 @@
 // Funcao para criar options do select
 const estados = {   
-'AC': 'Acre',
-'AL': 'Alagoas',
-'AP': 'Amapá',
-'AM': 'Amazonas',
-'BA': 'Bahia',
-'CE': 'Ceará',
-'DF': 'Distrito Federal',
-'ES': 'Espírito Santo',
-'GO': 'Goías',
-'MA': 'Maranhão',
-'MT': 'Mato Grosso',
-'MS': 'Mato Grosso do Sul',
-'MG': 'Minas Gerais',
-'PA': 'Pará',
-'PB': 'Paraíba',
-'PR': 'Paraná',
-'PE': 'Pernambuco',
-'PI': 'Piauí',
-'RJ': 'Rio de Janeiro',
-'RN': 'Rio Grande do Norte',
-'RS': 'Rio Grande do Sul',
-'RO': 'Rondônia',
-'RR': 'Roraíma',
-'SC': 'Santa Catarina',
-'SP': 'São Paulo',
-'SE': 'Sergipe',
-'TO': 'Tocantins'
+    'AC': 'Acre',
+    'AL': 'Alagoas',
+    'AP': 'Amapá',
+    'AM': 'Amazonas',
+    'BA': 'Bahia',
+    'CE': 'Ceará',
+    'DF': 'Distrito Federal',
+    'ES': 'Espírito Santo',
+    'GO': 'Goías',
+    'MA': 'Maranhão',
+    'MT': 'Mato Grosso',
+    'MS': 'Mato Grosso do Sul',
+    'MG': 'Minas Gerais',
+    'PA': 'Pará',
+    'PB': 'Paraíba',
+    'PR': 'Paraná',
+    'PE': 'Pernambuco',
+    'PI': 'Piauí',
+    'RJ': 'Rio de Janeiro',
+    'RN': 'Rio Grande do Norte',
+    'RS': 'Rio Grande do Sul',
+    'RO': 'Rondônia',
+    'RR': 'Roraíma',
+    'SC': 'Santa Catarina',
+    'SP': 'São Paulo',
+    'SE': 'Sergipe',
+    'TO': 'Tocantins'
 }
 const select = document.getElementById('estado');
 function criaOptions () {
@@ -39,69 +39,85 @@ function criaOptions () {
 }
 criaOptions();
 
-// Funcao para verificar data 
-const data = document.getElementById('data');
-function verificaData () {
-    const valorData = data.value;
-    const dia = parseInt(valorData.slice(0, 2));
-    console.log(dia);
-    const mes = parseInt(valorData.slice(3, 5));
-    console.log(mes);
-    const ano = parseInt(valorData.slice(6,10));
-    console.log(ano);
-
-    if ((dia > 0 && dia <= 31) && (mes > 0 && mes <= 12) && (ano > 1930)) {
-        return true;
-    }
-    return alert('Insira uma data valida!')
-}
-
 // Funcao enviar formulario
-const botao = document.getElementById('enviar');
-const div = document.createElement('div');
+const divPessoal = document.createElement('div');
+const divEmprego = document.createElement('div');
 
-function valorInputs() {
-    const inputs = document.getElementsByTagName('input');
+function dadosPessoais () {
+    // const inputs = document.querySelectorAll('.pessoal input');
+    const inputs = document.querySelectorAll('.pessoal #nome, #email, #cpf, #endereco');
+    const select = document.getElementById('estado');
+    let p = document.createElement('p');
+    const radio = document.getElementsByName('tipo');
+
     for (let i of inputs) {
         const p = document.createElement('p');
         let name = i.name;
         let value = i.value;
         p.innerHTML = `<strong>${name}</strong>: ${value}`;
-        div.appendChild(p);
+        divPessoal.appendChild(p);
     }
-}
-function valorOption () {
-    const select = document.getElementById('estado');
-    let optionValor = select.options[select.selectedIndex].value;
-    let p = document.createElement('p');
-    p.innerText = `Estado: ${optionValor}`;
-    div.appendChild(p);
-}
-function valorRadio () {
-    const radio = document.getElementsByName('tipo');
     for (let i = 0; i < radio.length; i += 1) {
         if (radio[i].checked) {
             let p = document.createElement('p');
-            p.innerText = `Mora em: ${radio[i].value}`;
-            div.appendChild(p);
+            p.innerHTML = `<strong>mora em</strong>: ${radio[i].value}`;
+            divPessoal.appendChild(p);
         }
     }
+
+    let optionValor = select.options[select.selectedIndex].value;
+    p.innerHTML = `<strong>estado</strong>: ${optionValor}`;
+    divPessoal.appendChild(p);
 }
-const infos = document.getElementById('secao-info');
+
+function ultimoEmprego () {
+    const inputEmprego = document.querySelectorAll('.emprego input');
+    const textArea = document.querySelectorAll('.emprego textarea')[0];
+    let textValor = textArea.value;
+    let p = document.createElement('p');
+    p.innerHTML = `<strong>resumo do curriculo</strong>: ${textValor}`;
+    divEmprego.appendChild(p);
+
+    for (let i of inputEmprego) {
+        const p = document.createElement('p');
+        let name = i.name;
+        let value = i.value;
+        p.innerHTML = `<strong>${name}</strong>: ${value}`;
+        divEmprego.appendChild(p);
+    }
+}
+
+// Acionador do formulario
+const botao = document.getElementById('enviar');
 function acionaFormulario (event) {
     event.preventDefault();
-    verificaData();
-    valorInputs();
-    valorOption();
-    valorRadio();
+    dadosPessoais();
+    ultimoEmprego();
 
-    const textArea = document.getElementsByTagName('textarea');
-    let textValor = textArea.innerText;
-    let p = document.createElement('p');
-    p.innerText = textValor;
-    div.appendChild(p);
+    const secaoPessoal = document.getElementById('dados-pessoais');
+    const secaoEmprego = document.getElementById('ultimo-emprego');
 
-    infos.appendChild(div);
+    secaoPessoal.appendChild(divPessoal);
+    secaoEmprego.appendChild(divEmprego);
 }
 botao.addEventListener('click', acionaFormulario);
+
+// Carregar depedencias do jQuery
+window.onload = function () {
+    $(document).ready(function(){
+        $('select').formSelect();
+    });
+    var picker = new Pikaday({
+        field: document.getElementById('datepicker'),
+        format: 'DD/MM/YYYY',
+        toString(date, format) {
+            // you should do formatting based on the passed format,
+            // but we will just return 'D/M/YYYY' for simplicity
+            const day = date.getDate();
+            const month = date.getMonth() + 1;
+            const year = date.getFullYear();
+            return `${day}/${month}/${year}`;
+        }
+    });
+}
 
