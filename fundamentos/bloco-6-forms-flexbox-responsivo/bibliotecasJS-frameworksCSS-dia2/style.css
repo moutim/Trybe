@@ -1,8 +1,18 @@
 body {
-    width: 60%;
+    width: 50%;
     margin: auto;
+    background-color: aliceblue;
 }
 fieldset {
     margin: 30px 0;
     border-radius: 20px;
+    padding: 25px;
+    box-shadow: 0px 10px 13px -7px #000000, 0px 0px 30px 11px rgba(143, 143, 143, 0.2);
+}
+fieldset legend {
+    font-weight: 600;
+    font-size: 20px;
+}
+h1, h3 {
+    text-align: center;
 }
