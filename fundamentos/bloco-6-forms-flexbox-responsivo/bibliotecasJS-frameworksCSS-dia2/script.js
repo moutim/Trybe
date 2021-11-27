@@ -44,7 +44,8 @@ const divPessoal = document.createElement('div');
 const divEmprego = document.createElement('div');
 
 function dadosPessoais () {
-    const inputs = document.querySelectorAll('.pessoal input');
+    // const inputs = document.querySelectorAll('.pessoal input');
+    const inputs = document.querySelectorAll('.pessoal #nome, #email, #cpf, #endereco');
     const select = document.getElementById('estado');
     let p = document.createElement('p');
     const radio = document.getElementsByName('tipo');
@@ -59,13 +60,13 @@ function dadosPessoais () {
     for (let i = 0; i < radio.length; i += 1) {
         if (radio[i].checked) {
             let p = document.createElement('p');
-            p.innerText = `Mora em: ${radio[i].value}`;
+            p.innerHTML = `<strong>mora em</strong>: ${radio[i].value}`;
             divPessoal.appendChild(p);
         }
     }
 
     let optionValor = select.options[select.selectedIndex].value;
-    p.innerText = `Estado: ${optionValor}`;
+    p.innerHTML = `<strong>estado</strong>: ${optionValor}`;
     divPessoal.appendChild(p);
 }
 
@@ -74,7 +75,7 @@ function ultimoEmprego () {
     const textArea = document.querySelectorAll('.emprego textarea')[0];
     let textValor = textArea.value;
     let p = document.createElement('p');
-    p.innerText = `resumo do curriculo: ${textValor}`;
+    p.innerHTML = `<strong>resumo do curriculo</strong>: ${textValor}`;
     divEmprego.appendChild(p);
 
     for (let i of inputEmprego) {
