@@ -27,7 +27,7 @@ const estados = {
     'SP': 'São Paulo',
     'SE': 'Sergipe',
     'TO': 'Tocantins'
-    }
+}
 const select = document.getElementById('estado');
 function criaOptions () {
     for (let i in estados) {
@@ -39,69 +39,65 @@ function criaOptions () {
 }
 criaOptions();
 
-// Funcao para verificar data 
-const data = document.getElementById('data');
-function verificaData () {
-    const valorData = data.value;
-    const dia = parseInt(valorData.slice(0, 2));
-    console.log(dia);
-    const mes = parseInt(valorData.slice(3, 5));
-    console.log(mes);
-    const ano = parseInt(valorData.slice(6,10));
-    console.log(ano);
-
-    if ((dia > 0 && dia <= 31) && (mes > 0 && mes <= 12) && (ano > 1930)) {
-        return true;
-    }
-    return alert('Insira uma data valida!')
-}
-
 // Funcao enviar formulario
-const botao = document.getElementById('enviar');
-const div = document.createElement('div');
+const divPessoal = document.createElement('div');
+const divEmprego = document.createElement('div');
 
-function valorInputs() {
-    const inputs = document.getElementsByTagName('input');
+function dadosPessoais () {
+    const inputs = document.querySelectorAll('.pessoal input');
+    const select = document.getElementById('estado');
+    let p = document.createElement('p');
+    const radio = document.getElementsByName('tipo');
+
     for (let i of inputs) {
         const p = document.createElement('p');
         let name = i.name;
         let value = i.value;
         p.innerHTML = `<strong>${name}</strong>: ${value}`;
-        div.appendChild(p);
+        divPessoal.appendChild(p);
     }
-}
-function valorOption () {
-    const select = document.getElementById('estado');
-    let optionValor = select.options[select.selectedIndex].value;
-    let p = document.createElement('p');
-    p.innerText = `Estado: ${optionValor}`;
-    div.appendChild(p);
-}
-function valorRadio () {
-    const radio = document.getElementsByName('tipo');
     for (let i = 0; i < radio.length; i += 1) {
         if (radio[i].checked) {
             let p = document.createElement('p');
             p.innerText = `Mora em: ${radio[i].value}`;
-            div.appendChild(p);
+            divPessoal.appendChild(p);
         }
     }
+
+    let optionValor = select.options[select.selectedIndex].value;
+    p.innerText = `Estado: ${optionValor}`;
+    divPessoal.appendChild(p);
 }
-const infos = document.getElementById('secao-info');
+
+function ultimoEmprego () {
+    const inputEmprego = document.querySelectorAll('.emprego input');
+    const textArea = document.querySelectorAll('.emprego textarea')[0];
+    let textValor = textArea.value;
+    let p = document.createElement('p');
+    p.innerText = `resumo do curriculo: ${textValor}`;
+    divEmprego.appendChild(p);
+
+    for (let i of inputEmprego) {
+        const p = document.createElement('p');
+        let name = i.name;
+        let value = i.value;
+        p.innerHTML = `<strong>${name}</strong>: ${value}`;
+        divEmprego.appendChild(p);
+    }
+}
+
+// Acionador do formulario
+const botao = document.getElementById('enviar');
 function acionaFormulario (event) {
     event.preventDefault();
-    verificaData();
-    valorInputs();
-    valorOption();
-    valorRadio();
+    dadosPessoais();
+    ultimoEmprego();
 
-    const textArea = document.getElementsByTagName('textarea');
-    let textValor = textArea.innerText;
-    let p = document.createElement('p');
-    p.innerText = textValor;
-    div.appendChild(p);
+    const secaoPessoal = document.getElementById('dados-pessoais');
+    const secaoEmprego = document.getElementById('ultimo-emprego');
 
-    infos.appendChild(div);
+    secaoPessoal.appendChild(divPessoal);
+    secaoEmprego.appendChild(divEmprego);
 }
 botao.addEventListener('click', acionaFormulario);
 
@@ -122,6 +118,5 @@ window.onload = function () {
             return `${day}/${month}/${year}`;
         }
     });
-    
 }
-    
+
