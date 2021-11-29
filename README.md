@@ -25,7 +25,7 @@ O programa conta com mais de 1.500 horas de aulas práticas e teóricas, aborda 
 - [28-10-21:white_check_mark:] 3-2: _HTML & CSS - Primeiros passos em CSS_
 - [29-10-21:white_check_mark:] 3-3: _HTML & CSS - Seletores e posicionamento_
 - [03-11-21:white_check_mark:] 3-4: _HTML Semântico_
-- [04-11-21:white_check_mark:] 3-5: _[Projeto - HTML & CSS]()_
+- [04-11-21:white_check_mark:] 3-5: _[Projeto - HTML & CSS](https://github.com/tryber/sd-018-a-project-lessons-learned/pull/29/files)_
 
 ##### Bloco 4: Introdução - JavaScript
 
@@ -33,7 +33,7 @@ O programa conta com mais de 1.500 horas de aulas práticas e teóricas, aborda 
 - [08-11-21:white_check_mark:] 4-2: _JavaScript - Array e loop For_
 - [09-11-21:white_check_mark:] 4-3: _JavaScript - Lógica de Programação e Algoritmos_
 - [10-11-21:white_check_mark:] 4-4: _JavaScript - Objetos e funções_
-- [11-11-21:white_check_mark:] 4-5: _[Projeto - Playground Functions]()_
+- [11-11-21:white_check_mark:] 4-5: _[Projeto - Playground Functions](https://github.com/tryber/sd-018-a-project-playground-functions/pull/76)_
 
 ##### Bloco 5: Introdução - JavaScript - Projetos
 
@@ -42,16 +42,16 @@ O programa conta com mais de 1.500 horas de aulas práticas e teóricas, aborda 
 - [18-11-21:white_check_mark:] 5-3: _JavaScript - Eventos_
 - [19-11-21:white_check_mark:] 5-4: _JavaScript - Web Storage_
 - [] 5-5: _[Projeto - Meme Generator]()_
-- [22-11-21:white_check_mark:] 5-6: _[Projeto - Arte com Pixels]()_
-- [23-11-21:white_check_mark:] 5-7: _[Projeto - Lista de tarefas]()_
+- [22-11-21:white_check_mark:] 5-6: _[Projeto - Arte com Pixels](https://moutim.github.io/pixelsart/)_
+- [23-11-21:white_check_mark:] 5-7: _[Projeto - Lista de tarefas](https://moutim.github.io/tasklist/)_
 - [ ] 5-7: _[Projeto - Adivinhe a Cor]()_
 - [ ] 5-7: _[Projeto - Carta Misteriosa]()_
 
 ##### Bloco 6: HTML & CSS avançado
 
 - [25-11-21:white_check_mark:] 6-1: _HTML & CSS - Forms_
-- [ ] 6-2: _Bibliotecas JavaScript e Frameworks CSS_
-- [ ] 6-3: _CSS Flexbox - Part 1_
+- [26-11-21:white_check_mark:] 6-2: _Bibliotecas JavaScript e Frameworks CSS_
+- [29-11-21:white_check_mark:] 6-3: _CSS Flexbox - Part 1_
 - [ ] 6-4: _CSS Flexbox - Part 2_
 - [ ] 6-5: _CSS Responsivo - Mobile First_
 - [ ] 6-6: _[Projeto - Página inicial do Facebook]()_
