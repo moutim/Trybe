@@ -25,6 +25,7 @@
     order: 2;
     display: flex;
     flex-basis: 500px;
+    flex-grow: 1;
   }
   
   .menu-container ul {
