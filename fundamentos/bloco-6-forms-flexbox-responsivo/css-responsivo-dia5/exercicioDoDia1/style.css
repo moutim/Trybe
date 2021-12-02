@@ -24,4 +24,7 @@ figure {
     h1 {
         font-size: 25px;
     }
+    figure {
+        margin: 40px 0;
+    }
 }
