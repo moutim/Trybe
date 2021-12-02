@@ -27,4 +27,7 @@ figure {
     figure {
         margin: 40px 0;
     }
+    body {
+        margin: 0 15px;
+    }
 }
