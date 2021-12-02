@@ -59,7 +59,7 @@ html {
         border-bottom: 2px solid #ffe45e;
     }
     main, footer {
-        margin: 0 10px;
+        margin: 30px 10px;
     }
     aside {
         margin: 15px 0;
@@ -70,5 +70,19 @@ html {
     }
     p {
         line-height: 25px;
+    }
+  }
+
+  @media screen and (min-width: 800px) {
+    .secao-aside {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+    }
+    header p {
+        font-size: 30px;
+    }
+    nav ul li {
+        font-size: 25px;
     }
   }
