@@ -1,0 +1,14 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  /* Configs gerais */
+  
+  header, h1, h2 {
+    font-family: 'Cinzel', serif;
+  }
+  main {
+    font-family: Ubuntu;
+  }
