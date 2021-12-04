@@ -6,59 +6,59 @@ _"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vi
 
 O programa conta com mais de 1.500 horas de aulas práticas e teóricas, aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais.
 
-## Fundamentos do Desenvolvimento Web :white_check_mark:
+## Fundamentos do Desenvolvimento Web :heavy_check_mark:
 
 ##### Bloco 1: Introdução - Unix & Shell
 
-- [20-10-21:white_check_mark:] 1-3: _Unix & Shell- Part 1_
-- [21-10-21:white_check_mark:] 1-4: _Unix & Shell- Part 2_
+- [20-10-21:heavy_check_mark:] 1-3: _Unix & Shell- Part 1_
+- [21-10-21:heavy_check_mark:] 1-4: _Unix & Shell- Part 2_
 
 ##### Bloco 2: Git & GitHub
 
-- [22-10-21:white_check_mark:] 2-1: _O que é e para que serve?_
-- [25-10-21:white_check_mark:] 2-2: _Entendendo os comandos_
-- [26-10-21:white_check_mark:] 2-3: _Internet - Entendendo como ela funciona_
+- [22-10-21:heavy_check_mark:] 2-1: _O que é e para que serve?_
+- [25-10-21:heavy_check_mark:] 2-2: _Entendendo os comandos_
+- [26-10-21:heavy_check_mark:] 2-3: _Internet - Entendendo como ela funciona_
 
 ##### Bloco 3: Introdução - HTML & CSS
 
-- [27-10-21:white_check_mark:] 3-1: _HTML & CSS - Estruturas de página_
-- [28-10-21:white_check_mark:] 3-2: _HTML & CSS - Primeiros passos em CSS_
-- [29-10-21:white_check_mark:] 3-3: _HTML & CSS - Seletores e posicionamento_
-- [03-11-21:white_check_mark:] 3-4: _HTML Semântico_
-- [04-11-21:white_check_mark:] 3-5: _[Projeto - HTML & CSS](https://github.com/tryber/sd-018-a-project-lessons-learned/pull/29/files)_
+- [27-10-21:heavy_check_mark:] 3-1: _HTML & CSS - Estruturas de página_
+- [28-10-21:heavy_check_mark:] 3-2: _HTML & CSS - Primeiros passos em CSS_
+- [29-10-21:heavy_check_mark:] 3-3: _HTML & CSS - Seletores e posicionamento_
+- [03-11-21:heavy_check_mark:] 3-4: _HTML Semântico_
+- [04-11-21:heavy_check_mark:] 3-5: _[Projeto - HTML & CSS](https://github.com/tryber/sd-018-a-project-lessons-learned/pull/29/files)_
 
 ##### Bloco 4: Introdução - JavaScript
 
-- [05-11-21:white_check_mark:] 4-1: _JavaScript - Primeiros passos_
-- [08-11-21:white_check_mark:] 4-2: _JavaScript - Array e loop For_
-- [09-11-21:white_check_mark:] 4-3: _JavaScript - Lógica de Programação e Algoritmos_
-- [10-11-21:white_check_mark:] 4-4: _JavaScript - Objetos e funções_
-- [11-11-21:white_check_mark:] 4-5: _[Projeto - Playground Functions](https://github.com/tryber/sd-018-a-project-playground-functions/pull/76)_
+- [05-11-21:heavy_check_mark:] 4-1: _JavaScript - Primeiros passos_
+- [08-11-21:heavy_check_mark:] 4-2: _JavaScript - Array e loop For_
+- [09-11-21:heavy_check_mark:] 4-3: _JavaScript - Lógica de Programação e Algoritmos_
+- [10-11-21:heavy_check_mark:] 4-4: _JavaScript - Objetos e funções_
+- [11-11-21:heavy_check_mark:] 4-5: _[Projeto - Playground Functions](https://github.com/tryber/sd-018-a-project-playground-functions/pull/76)_
 
 ##### Bloco 5: Introdução - JavaScript - Projetos
 
-- [16-11-21:white_check_mark:] 5-1: _JavaScript - DOM e seletores_
-- [17-11-21:white_check_mark:] 5-2: _JavaScript - Trabalhando com elementos_
-- [18-11-21:white_check_mark:] 5-3: _JavaScript - Eventos_
-- [19-11-21:white_check_mark:] 5-4: _JavaScript - Web Storage_
+- [16-11-21:heavy_check_mark:] 5-1: _JavaScript - DOM e seletores_
+- [17-11-21:heavy_check_mark:] 5-2: _JavaScript - Trabalhando com elementos_
+- [18-11-21:heavy_check_mark:] 5-3: _JavaScript - Eventos_
+- [19-11-21:heavy_check_mark:] 5-4: _JavaScript - Web Storage_
 - [] 5-5: _[Projeto - Meme Generator]()_
-- [22-11-21:white_check_mark:] 5-6: _[Projeto - Arte com Pixels](https://moutim.github.io/pixelsart/)_
-- [23-11-21:white_check_mark:] 5-7: _[Projeto - Lista de tarefas](https://moutim.github.io/tasklist/)_
+- [22-11-21:heavy_check_mark:] 5-6: _[Projeto - Arte com Pixels](https://moutim.github.io/pixelsart/)_
+- [23-11-21:heavy_check_mark:] 5-7: _[Projeto - Lista de tarefas](https://moutim.github.io/tasklist/)_
 - [ ] 5-7: _[Projeto - Adivinhe a Cor]()_
 - [ ] 5-7: _[Projeto - Carta Misteriosa]()_
 
 ##### Bloco 6: HTML & CSS avançado
 
-- [25-11-21:white_check_mark:] 6-1: _HTML & CSS - Forms_
-- [26-11-21:white_check_mark:] 6-2: _Bibliotecas JavaScript e Frameworks CSS_
-- [29-11-21:white_check_mark:] 6-3: _CSS Flexbox - Part 1_
-- [30-11-21:white_check_mark:] 6-4: _CSS Flexbox - Part 2_
-- [01-12-21:white_check_mark:] 6-5: _CSS Responsivo - Mobile First_
-- [02-12-21:white_check_mark:] 6-6: _[Projeto - Trybewarts]()_
+- [25-11-21:heavy_check_mark:] 6-1: _HTML & CSS - Forms_
+- [26-11-21:heavy_check_mark:] 6-2: _Bibliotecas JavaScript e Frameworks CSS_
+- [29-11-21:heavy_check_mark:] 6-3: _CSS Flexbox - Part 1_
+- [30-11-21:heavy_check_mark:] 6-4: _CSS Flexbox - Part 2_
+- [01-12-21:heavy_check_mark:] 6-5: _CSS Responsivo - Mobile First_
+- [02-12-21:heavy_check_mark:] 6-6: _[Projeto - Trybewarts]()_
 
 ##### Bloco 7: JavaScript ES6 & Testes Unitários
 
-- [03-12-21:white_check_mark:] 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
+- [03-12-21:heavy_check_mark:] 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
 - [ ] 7-2: _JavaScript ES6 - Objects_
 - [ ] 7-3: _Testes unitários em JavaScript_
 - [ ] 7-4: _[Projeto - JavaScript Testes Unitários]()_
