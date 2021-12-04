@@ -23,3 +23,9 @@ const maiorPalavra = frase => {
     return maiorPalavra;
 }
 console.log(maiorPalavra('Antonio foi no banheiro e não sabemossssssss o que aconteceu'));
+
+// 3 - Faca um botao com um evento de listener e mostre quantas vezes ele foi clicado
+const botao = document.getElementById('botao');
+const paragrafo = document.getElementById('contagem');
+let clickCount = 0;
+botao.addEventListener('click', () => {clickCount += 1; paragrafo.innerText = `Voce clicou no botao ${clickCount} vezes`})
