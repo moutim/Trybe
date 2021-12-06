@@ -18,6 +18,20 @@ const lesson1 = {
     turno: 'noite',
   };
 
+  const lesson4 = {
+    materia: 'História',
+    numeroEstudantes: 40,
+    professor: 'Maria Clara',
+    turno: 'noite',
+  };
+
+  const lesson5 = {
+    materia: 'Matemática',
+    numeroEstudantes: 60,
+    professor: 'Maria Clara',
+    turno: 'noite',
+  };
+
 // 1 - Crie uma função para adicionar o turno da noite na lesson2 . Essa função deve possuir três parâmetros, sendo eles: o objeto a ser modificado, a chave que deverá ser adicionada e o valor dela.
 function adicionaTurno (objetoDestino, chave, valor) {
     objetoDestino[chave] = valor;
@@ -44,7 +58,7 @@ function listaValores (objeto) {
 listaValores(lesson1);
 
 // 5 - Crie um objeto de nome allLessons , que deve agrupar todas as aulas através do Object.assign . Cada chave desse novo objeto será uma aula, sendo essas chaves: lesson1 , lesson2 e lesson3 . Ao executar o comando console.log(allLessons) , a saída deverá ser a seguinte:
-const allLessons = Object.assign({}, {lesson1, lesson2, lesson3});
+const allLessons = Object.assign({}, {lesson1, lesson2, lesson3, lesson4, lesson5});
 console.log(allLessons);
 
 // 6 - Usando o objeto criado no exercício 5, crie uma função que retorne o número total de estudantes em todas as aulas.
@@ -65,7 +79,7 @@ function getValueByNumber (objeto, numero) {
 }
 getValueByNumber(lesson3, 3)
 
-// Crie uma função que verifique se o par (chave / valor) existe na função. Essa função deve possuir três parâmetros, sendo eles: o objeto, o nome da chave e o valor da chave. 
+// 8 - Crie uma função que verifique se o par (chave / valor) existe na função. Essa função deve possuir três parâmetros, sendo eles: o objeto, o nome da chave e o valor da chave. 
 function verifyPair (objeto, chave, valor) {
     if (objeto[chave] !== undefined && objeto[chave] === valor) {
         return console.log(`${true}, existe uma entrada com esses valores`);
@@ -73,3 +87,16 @@ function verifyPair (objeto, chave, valor) {
     return console.log(`${false}, nao existe uma entrada com esses valores`);
 }
 verifyPair(lesson3, 'professor', 'Maria Clara');
+
+// Bônus
+// 1 - Crie uma função para contar quantos estudantes assistiram às aulas de Matemática. Use o objeto criado no exercício 5.
+function contaAlunosMateria (nomeMateria) {
+    let alunos = 0;
+    for (let key in allLessons){
+        if (allLessons[key].materia === nomeMateria) {
+            alunos += allLessons[key].numeroEstudantes;
+        }
+    }
+    return console.log(alunos);
+}
+contaAlunosMateria('Matemática');
