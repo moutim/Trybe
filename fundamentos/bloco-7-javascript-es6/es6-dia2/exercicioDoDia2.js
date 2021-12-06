@@ -21,7 +21,7 @@ const lesson1 = {
   const lesson4 = {
     materia: 'História',
     numeroEstudantes: 40,
-    professor: 'Maria Clara',
+    professor: 'Carlos',
     turno: 'noite',
   };
 
@@ -100,3 +100,21 @@ function contaAlunosMateria (nomeMateria) {
     return console.log(alunos);
 }
 contaAlunosMateria('Matemática');
+
+// 2 - Crie uma função que deverá retornar um objeto que representa o relatório do professor ou professora, as aulas que ele ou ela ministrou e o número total de estudantes. Use o objeto criado no exercício 5
+function criaRelatorio (professor) {
+    const relatorio = {};
+    const aulas = [];
+    let alunos = 0;
+    for (let key in allLessons){
+        if (allLessons[key].professor === professor) {
+            aulas.push(allLessons[key].materia);
+            alunos += allLessons[key].numeroEstudantes;
+        }
+    }
+    relatorio.professor = professor;
+    relatorio.aulas = aulas;
+    relatorio.estudantes = alunos;
+    return console.log(relatorio);
+}
+criaRelatorio('Maria Clara');
