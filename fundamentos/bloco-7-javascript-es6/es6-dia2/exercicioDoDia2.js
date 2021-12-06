@@ -23,3 +23,9 @@ function adicionaTurno (objetoDestino, chave, valor) {
     objetoDestino[chave] = valor;
 }
 adicionaTurno(lesson2, 'turno', 'noite');
+
+// 1 - Crie uma função para listar as keys de um objeto. Essa função deve receber um objeto como parâmetro.
+function listaKeys (objeto) {
+    console.log(Object.keys(objeto)); 
+}
+listaKeys(lesson3)
