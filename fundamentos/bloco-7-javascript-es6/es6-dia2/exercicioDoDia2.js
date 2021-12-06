@@ -36,3 +36,10 @@ function tamanhoObjeto (objeto) {
     console.log(Object.keys(objeto).length);
 }
 tamanhoObjeto(lesson2)
+
+// 4 - Crie uma função para listar os valores de um objeto. Essa função deve receber um objeto como parâmetro.
+function listaValores (objeto) {
+    console.log(Object.values(objeto));
+}
+listaValores(lesson1);
+
