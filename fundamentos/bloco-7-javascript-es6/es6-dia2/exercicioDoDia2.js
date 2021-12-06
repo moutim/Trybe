@@ -64,3 +64,12 @@ function getValueByNumber (objeto, numero) {
     return console.log(valores[numero]);
 }
 getValueByNumber(lesson3, 3)
+
+// Crie uma função que verifique se o par (chave / valor) existe na função. Essa função deve possuir três parâmetros, sendo eles: o objeto, o nome da chave e o valor da chave. 
+function verifyPair (objeto, chave, valor) {
+    if (objeto[chave] !== undefined && objeto[chave] === valor) {
+        return console.log(`${true}, existe uma entrada com esses valores`);
+    }
+    return console.log(`${false}, nao existe uma entrada com esses valores`);
+}
+verifyPair(lesson3, 'professor', 'Maria Clara');
