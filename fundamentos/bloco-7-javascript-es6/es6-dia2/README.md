@@ -11,7 +11,8 @@ Manipular objetos no JavaScript se tornou mais fácil com a chegada do ES6. Com 
       firstName: 'Roberto',
       age: 22,
       job: 'Teacher',
-    };` `customes.'nomeDaNovaChave' = 'valor'`
+    };` 
+  * `customes.'nomeDaNovaChave' = 'valor'`
 * Pegar todas as chaves de um objeto:
   * `Object.keys(customer)` - retorna um array  com todas as chaves
   * Retorno: `['firstName', 'age', 'job']`;
