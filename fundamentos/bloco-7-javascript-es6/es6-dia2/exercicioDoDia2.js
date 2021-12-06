@@ -57,3 +57,10 @@ function numeroEstudantes (objeto) {
     return console.log(alunos);
 }
 numeroEstudantes(allLessons)
+
+// 7 - Crie uma função que obtenha o valor da chave de acordo com a sua posição no objeto.
+function getValueByNumber (objeto, numero) {
+    const valores = Object.values(objeto);
+    return console.log(valores[numero]);
+}
+getValueByNumber(lesson3, 3)
