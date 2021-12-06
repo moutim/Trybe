@@ -43,10 +43,15 @@ const order = {
       return console.log(`Olá ${deliveryPerson}, entrega para: ${customerName}, Telefone: ${customerPhone}, Rua: ${adress[0]}, Nº: ${adress[1]}, AP: ${adress[2]}`);
   }
   customerInfo(order);
-  
+
+// 2 - Complete a função orderModifier() para que seu retorno seja similar a "Olá Luiz Silva, o total do seu pedido de marguerita, pepperoni e Coca-Cola Zero é R$ 50,00."
   const orderModifier = (order) => {
-    // Adicione abaixo as informações necessárias.
-  
+    order.name = 'Luiz Silva';
+    order.order.price = 50;
+    const customerName = order.name;
+    const pizzas = Object.keys(order.order.pizza);
+    const drinks = Object.values(order.order.drinks.coke);
+    const price = order.order.price;
+    return console.log(`Olá ${customerName}, o total do seu pedido de ${pizzas.join()} e ${drinks[0]} é R$ ${price}`);
   }
-  
   orderModifier(order);
