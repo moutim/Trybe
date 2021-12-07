@@ -12,7 +12,7 @@ Manipular objetos no JavaScript se tornou mais fácil com a chegada do ES6. Com 
       age: 22,
       job: 'Teacher',
     };` 
-  * `customes.'nomeDaNovaChave' = 'valor'`
+  * `customer.'nomeDaNovaChave' = 'valor'`
 * Pegar todas as chaves de um objeto:
   * `Object.keys(customer)` - retorna um array  com todas as chaves
   * Retorno: `['firstName', 'age', 'job']`;
@@ -26,7 +26,7 @@ Manipular objetos no JavaScript se tornou mais fácil com a chegada do ES6. Com 
   * `Object.assign(destino, objeto, objeto1)` - Coloca todas as entradas de um objeto no destino
   * Exemplo: `const cloneObj = Object.assign({}, customer)` - Adiciona todas as entradas ao objeto vazio;
 
-
+​	
 
 
 
