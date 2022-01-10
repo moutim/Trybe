@@ -54,22 +54,22 @@ O programa conta com mais de 1.500 horas de aulas práticas e teóricas, aborda 
 - [29-11-21:heavy_check_mark:] 6-3: _CSS Flexbox - Part 1_
 - [30-11-21:heavy_check_mark:] 6-4: _CSS Flexbox - Part 2_
 - [01-12-21:heavy_check_mark:] 6-5: _CSS Responsivo - Mobile First_
-- [02-12-21:heavy_check_mark:] 6-6: _[Projeto - Trybewarts]()_
+- [02-12-21:heavy_check_mark:] 6-6: _[Projeto - Trybewarts](https://github.com/moutim/Trybewarts)_
 
 ##### Bloco 7: JavaScript ES6 & Testes Unitários
 
 - [03-12-21:heavy_check_mark:] 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
 - [06-12-21:heavy_check_mark:] 7-2: _JavaScript ES6 - Objects_
-- [ ] 7-3: _Testes unitários em JavaScript_
-- [ ] 7-4: _[Projeto - JavaScript Testes Unitários]()_
+- [07-12-21:heavy_check_mark:] 7-3: _Testes unitários em JavaScript_
+- [08-12-21:heavy_check_mark:] 7-4: _[Projeto - JavaScript Testes Unitários](https://github.com/tryber/sd-018-a-project-js-unit-tests/pull/76)_
 
 ##### Bloco 8: JavaScript ES6
 
-- [ ] 8-1: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
-- [ ] 8-2: _JavaScript ES6 - Higher Order Functions - map e filter_
-- [ ] 8-3: _JavaScript ES6 - Higher Order Functions - reduce_
-- [ ] 8-4: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
-- [ ] 8-5: _[Projeto - Zoo functions]()_
+- [09-12-21:heavy_check_mark:] 8-1: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
+- [10-12-21:heavy_check_mark:] 8-2: _JavaScript ES6 - Higher Order Functions - map e filter_
+- [03-01-22:heavy_check_mark:] 8-3: _JavaScript ES6 - Higher Order Functions - reduce_
+- [04-01-22:heavy_check_mark:] 8-4: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
+- [05-01-22:heavy_check_mark:] 8-5: _[Projeto - Zoo functions](https://github.com/tryber/sd-018-a-project-zoo-functions/pull/70)_
 
 ##### Bloco 9: Assincronicidade & Callbacks
 
