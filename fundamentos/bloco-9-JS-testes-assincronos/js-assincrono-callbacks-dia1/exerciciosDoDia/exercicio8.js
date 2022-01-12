@@ -31,7 +31,7 @@ const pokemons = [
     }, 2000);
   }
   
-  getPokemonDetails((pokemon) => pokemon.name === 'Sqirtle', (error, message) => (error) ? console.log(error) : console.log(message));
+  getPokemonDetails((pokemon) => pokemon.name === 'Charmander', (error, message) => (error) ? console.log(error) : console.log(message));
 //   getPokemonDetails();  
   module.exports = {
     getPokemonDetails,
