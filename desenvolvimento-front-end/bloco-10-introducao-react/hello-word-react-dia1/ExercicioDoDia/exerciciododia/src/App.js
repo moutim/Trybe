@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 
 // Crie uma lista de tarefas simples seguindo os passos abaixo:
