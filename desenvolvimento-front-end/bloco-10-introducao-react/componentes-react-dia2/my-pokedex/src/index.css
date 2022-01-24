@@ -10,14 +10,14 @@ body {
 
 .pokemon-list {
   display: flex;
-  width: 70%;
   margin: 0 auto;
   flex-wrap: wrap;
+  margin: 0 10px;
 }
 
 .pokemon-list div {
-  text-align: center;
   flex-grow: 1;
+  text-align: center;
   width: 30%;
   padding: 10px;
   margin: 5px;
