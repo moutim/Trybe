@@ -85,7 +85,7 @@ O programa conta com mais de 1.500 horas de aulas práticas e teóricas, aborda 
 
 - [23-01-22:heavy_check_mark:] 11-1: _'Hello, world!' no React!_
 - [24-01-22:heavy_check_mark:] 11-2: _Componentes React_
-- [ ] 11-3: _[Projeto - Movie Cards Library]()_
+- [25-01-22:heavy_check_mark:] 11-3: _[Projeto - Solar System](https://github.com/tryber/sd-018-a-project-solar-system/pull/21)_
 
 ##### Bloco 12: React
 
