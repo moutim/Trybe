@@ -16,6 +16,7 @@ class App extends Component {
   }
 
   contaCliques() {
+    ((this.state.numeroDeCliques % 2) === 0) ? console.log('verde - par') : console.log('azul - impar');;
     this.setState((cliquesAntigo) => ({numeroDeCliques: cliquesAntigo.numeroDeCliques + 1}));
   } 
 
@@ -23,7 +24,10 @@ class App extends Component {
     return(
       <div>
         <button onClick={this.handleClick}>Handleclick dentro da funcao</button>
-        <button onClick={this.contaCliques} >Quantas vezes cliquei?{this.state.numeroDeCliques} </button>
+        <button onClick={() => {
+          ((this.state.numeroDeCliques % 2) === 0) ? console.log('verde - par') : console.log('azul - impar');;
+          this.setState((cliquesAntigo) => ({numeroDeCliques: cliquesAntigo.numeroDeCliques + 1}));
+        }} >Quantas vezes cliquei?{this.state.numeroDeCliques} </button>
       </div>
     )
   }
