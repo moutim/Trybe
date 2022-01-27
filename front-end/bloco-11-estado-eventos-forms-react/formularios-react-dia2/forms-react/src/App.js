@@ -8,13 +8,14 @@ class App extends Component {
       email: '',
       mensagem: '',
       option: '',
+      vaiComparecer: false
     }
     this.handleChange = this.handleChange.bind(this);
   }
 
-  handleChange(event){
-    const { name, value } = event.target;
-    console.log(name, value);
+  handleChange({ target }){
+    const { name } = target;
+    const value = (target.type === 'checkbox') ? target.checked : target.value;
     this.setState({[name]: value})
   }
   
@@ -29,18 +30,27 @@ class App extends Component {
             <option value="DOIS">Dois</option>
             <option value="TRES">Tres</option>
           </select>
-          <label>
-            Insira seu nome
+
+          <fieldset>
+            <legend>Insira seu nome</legend>
             <input value={this.state.name} type="text" onChange={this.handleChange} name="nome"></input>
-          </label>
-          <label>
-            Insira seu email
+          </fieldset>
+
+          <fieldset>
+            <legend>Insira seu email</legend>
             <input type="email" name="email" value={this.state.email} onChange={this.handleChange}></input>
-          </label>
-          <label>
-            Insira uma mensagem
+          </fieldset>
+
+          <fieldset>
+            <legend>Insira uma mensagem</legend>
             <textarea name="mensagem" value={this.state.mensagem} onChange={this.handleChange}></textarea>
-          </label>
+          </fieldset>
+
+          <fieldset>
+            <legend>Vai comparecer?</legend>
+            <input type="checkbox" name="vaiComparecer" value={this.state.vaiComparecer} onChange={this.handleChange}></input>
+          </fieldset>
+
         </form>
       </div>
     )
