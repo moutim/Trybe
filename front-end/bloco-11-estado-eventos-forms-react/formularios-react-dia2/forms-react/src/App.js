@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Input from "./Componentes/Input";
 
 class App extends Component {
   constructor(){
@@ -18,8 +19,10 @@ class App extends Component {
     const value = (target.type === 'checkbox') ? target.checked : target.value;
     this.setState({[name]: value})
   }
+
   
   render(){
+    const { nome, email, mensagem } = this.state;
     return(
       <div>
         <h1>Testes com forms React</h1>
@@ -33,17 +36,17 @@ class App extends Component {
 
           <fieldset>
             <legend>Insira seu nome</legend>
-            <input value={this.state.name} type="text" onChange={this.handleChange} name="nome"></input>
+            <Input value={nome} type={'text'} handleChange={this.handleChange} name={'nome'}/>
           </fieldset>
 
           <fieldset>
             <legend>Insira seu email</legend>
-            <input type="email" name="email" value={this.state.email} onChange={this.handleChange}></input>
+            <Input value={email} type={'text'} handleChange={this.handleChange} name={'email'}/>
           </fieldset>
 
           <fieldset>
             <legend>Insira uma mensagem</legend>
-            <textarea name="mensagem" value={this.state.mensagem} onChange={this.handleChange}></textarea>
+            <Input value={mensagem} type={'text'} handleChange={this.handleChange} name={'mensagem'}/>
           </fieldset>
 
           <fieldset>
