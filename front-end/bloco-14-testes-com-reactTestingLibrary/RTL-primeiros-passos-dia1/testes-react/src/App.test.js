@@ -1,29 +1,26 @@
+import React from 'react';
 import { render, screen } from '@testing-library/react';
+import userEvent from '@testing-library/user-event';
 import App from './App';
 
-test('Verifica se existe um input do tipo email na tela', () => {
+
+test('Verificando se o botão e o campo email estão funcionando.', () => {
   render(<App />);
-  const labelEmail = screen.getByLabelText('Email');
-  expect(labelEmail).toBeInTheDocument();
-  expect(labelEmail).toHaveProperty('type', 'email');
+
+  const EMAIL_USER = 'email@email.com';
+  const buttonSend = screen.getByText('Enviar');
+  userEvent.click(buttonSend);
+
+
+  const textEmail = screen.getByTestId('id-email-user');
+  expect(textEmail).toBeInTheDocument();
+  expect(textEmail).toHaveTextContent('Valor:');
+
+  const btnSend = screen.getByTestId('id-send');
+  const inputEmail = screen.getByLabelText('Email');
+  userEvent.type(inputEmail, EMAIL_USER);
+  userEvent.click(btnSend);
+
+  expect(inputEmail).toHaveValue('');
+  expect(textEmail).toHaveTextContent(`Valor: ${ EMAIL_USER }`);
 });
-
-test('Verifica se existe um botao de enviar e um de voltar na tela', () => {
-  render(<App />);
-  const buttonSend = screen.getByTestId('button-send');
-  const buttonBack = screen.getByTestId('button-back');
-  expect(buttonSend).toBeInTheDocument();
-  expect(buttonSend).toHaveProperty('type', 'button');
-  expect(buttonSend).toHaveValue('Enviar');
-
-  expect(buttonBack).toBeInTheDocument();
-  expect(buttonBack).toHaveProperty('type', 'button');
-  expect(buttonBack).toHaveValue('Voltar');
-
-})
-
-test('Verifica se existe dois botoes na tela', () => {
-  render(<App />);
-  const button = screen.getAllByRole('button');
-  expect(button).toHaveLength(2);
-})
