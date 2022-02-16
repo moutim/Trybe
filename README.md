@@ -89,16 +89,16 @@ O programa conta com mais de 1.500 horas de aulas práticas e teóricas, aborda 
 
 ##### Bloco 12: React
 
-- [28-01-22:heavy_check_mark:] 12-1: _Components com estado_
-- [01-02-22:heavy_check_mark:] 12-2: _Eventos e formulários no React_
-- [02-02-22:heavy_check_mark:] 12-3: _[Projeto - Tryunfo](https://github.com/tryber/sd-018-a-project-tryunfo/pull/16)_
+- [27-01-22:heavy_check_mark:] 12-1: _Components com estado_
+- [28-01-22:heavy_check_mark:] 12-2: _Eventos e formulários no React_
+- [31-01-22:heavy_check_mark:] 12-3: _[Projeto - Tryunfo](https://github.com/tryber/sd-018-a-project-tryunfo/pull/16)_
 
 ##### Bloco 13: React
 
-- [03-02-22:heavy_check_mark:] 13-1: _Melhorando o reuso de componentes: props.children e PropTypes_
-- [04-02-22:heavy_check_mark:] 13-2: _Ciclo de vida de componentes em React_
-- [05-02-22:heavy_check_mark:] 13-3: _React Router_
-- [ ] 13-4: _[Projeto - TrybeTunes](https://github.com/tryber/sd-018-a-project-trybetunes/pull/65)_
+- [01-02-22:heavy_check_mark:] 13-1: _Melhorando o reuso de componentes: props.children e PropTypes_
+- [02-02-22:heavy_check_mark:] 13-2: _Ciclo de vida de componentes em React_
+- [03-02-22:heavy_check_mark:] 13-3: _React Router_
+- [04-02-22:heavy_check_mark:] 13-4: _[Projeto - TrybeTunes](https://github.com/tryber/sd-018-a-project-trybetunes/pull/65)_
 
 ##### Bloco 14: Metodologias Ágeis
 
