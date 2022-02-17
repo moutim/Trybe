@@ -1,7 +1,7 @@
 import React from 'react';
 import { screen } from '@testing-library/react';
 import renderWithRouter from './renderWithRouter';
-import App from './App';
+import App, { About } from './App';
 import userEvent from '@testing-library/user-event';
 
 describe('teste da aplicação toda', () => {
@@ -37,5 +37,13 @@ describe('teste da aplicação toda', () => {
     const notFoundTitle = screen.getByRole('heading',
       { name: 'Página não encontrada' });
     expect(notFoundTitle).toBeInTheDocument();
+  });
+
+  it('deve renderizar o componente About (apenas componente)', () => {
+    renderWithRouter(<About />);
+  
+    const aboutTitle = screen.getByRole('heading',
+      { name: 'Você está na página Sobre' });
+    expect(aboutTitle).toBeInTheDocument();
   });
 });
