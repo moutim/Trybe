@@ -89,7 +89,7 @@ O programa conta com mais de 1.500 horas de aulas práticas e teóricas, aborda 
 
 ##### Bloco 12: React
 
-- [27-01-22:heavy_check_mark:] 12-1: _Components com estado_
+- [28-01-22:heavy_check_mark:] 12-1: _Components com estado_
 - [28-01-22:heavy_check_mark:] 12-2: _Eventos e formulários no React_
 - [31-01-22:heavy_check_mark:] 12-3: _[Projeto - Tryunfo](https://github.com/tryber/sd-018-a-project-tryunfo/pull/16)_
 
@@ -102,13 +102,14 @@ O programa conta com mais de 1.500 horas de aulas práticas e teóricas, aborda 
 
 ##### Bloco 14: Metodologias Ágeis
 
-- [ ] 14-1: _Metodologias Ágeis_
-- [ ] 14-2: _[Projeto - Frontend Online Store]()_
+- [08-02-22:heavy_check_mark:] 14-1: _Metodologias Ágeis_
+- [09-02-22:heavy_check_mark:] 14-2: _[Projeto - Frontend Online Store]()_
 
 ##### Bloco 15: Testes em React
 
-- [ ] 15-1: _Testando React com a React Testing Library_
-- [ ] 15-2: _Testando React com a React Testing Library - Parte 2_
+- [15-02-22:heavy_check_mark:] 15-1: _Testando React com a React Testing Library_
+- [16-02-22:heavy_check_mark:] 15-2: _Testando React com a React Testing Library - Parte 2_
+- [17-02-22:heavy_check_mark:] 15-2: _Testando ReactRouter com a React Testing Library
 - [ ] 15-3: _[Projeto - Testes em React]()_
 
 ##### Bloco 16: Introdução ao Redux
