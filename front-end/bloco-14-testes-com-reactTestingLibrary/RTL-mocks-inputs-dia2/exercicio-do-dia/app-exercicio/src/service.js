@@ -17,8 +17,8 @@ const concatenateStrings = (a, b) => a + b;
 
 // Crie uma função que faça requisição para a api dog pictures.
 const fetchAPI = async () => {
-    const result = fetch('https://dog.ceo/api/breeds/image/random');
-    const data = result.json();
+    const result = await fetch('https://dog.ceo/api/breeds/image/random');
+    const data = await result.json();
     return data;
 }
 

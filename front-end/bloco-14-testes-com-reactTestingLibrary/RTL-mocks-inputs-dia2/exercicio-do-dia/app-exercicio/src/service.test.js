@@ -1,5 +1,6 @@
 const service = require('./service');
 
+
 describe('Testa se a funcao randomNumber foi executada como esperado', () => {
     // Crie uma função que gere um número aleatório
     //     Defina uma função que gere um número aleatório entre 0 e 100.
@@ -108,5 +109,6 @@ describe('Testa a funcao fetchAPI', () => {
         expect(service.fetchAPI).toHaveBeenCalled();
         expect(service.fetchAPI).toHaveBeenCalledTimes(1);
     })
-})
+});
+
 
