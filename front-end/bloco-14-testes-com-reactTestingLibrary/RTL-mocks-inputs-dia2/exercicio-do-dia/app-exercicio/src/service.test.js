@@ -85,3 +85,10 @@ describe('Testa nova funcionalidade da funcao concatenateStrings', () => {
     });
 });
 
+describe('Testa reset de funcoes mockadas', () => {
+    it('Verifica se a funcao toUpperCase volta ao estado normal depois de executar mockRestore', () => {
+        service.toUpperCase.mockRestore();
+        expect(service.toUpperCase('teste')).toBe('TESTE');
+    });
+});
+

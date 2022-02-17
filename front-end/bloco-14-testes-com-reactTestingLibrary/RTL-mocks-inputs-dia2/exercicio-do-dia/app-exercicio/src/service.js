@@ -10,7 +10,7 @@ const randomNumber = () => Math.floor(Math.random() * 101);
 const toUpperCase = string => string.toUpperCase();
 
 // Crie a segunda função: ela recebe uma string e deve retornar só a primeira letra.
-const firstCapitalLetter = string => string.charAt(0);
+const firstCapitalLetter = string => string[0];
 
 // Elabore a terceira função: essa função deve receber duas strings e concatená-las.
 const concatenateStrings = (a, b) => a + b;
