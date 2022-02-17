@@ -103,7 +103,7 @@ O programa conta com mais de 1.500 horas de aulas práticas e teóricas, aborda 
 ##### Bloco 14: Metodologias Ágeis
 
 - [08-02-22:heavy_check_mark:] 14-1: _Metodologias Ágeis_
-- [09-02-22:heavy_check_mark:] 14-2: _[Projeto - Frontend Online Store]()_
+- [09-02-22:heavy_check_mark:] 14-2: _[Projeto - Frontend Online Store](https://github.com/tryber/sd-018-a-project-frontend-online-store/tree/main-group-5)_
 
 ##### Bloco 15: Testes em React
 
