@@ -11,14 +11,14 @@ describe('teste da aplicação toda', () => {
     const homeTitle = screen.getByRole('heading', {
       name: 'Você está na página Início',
     });
-    expect(homeTitle).toBeInTheDocument();
+    expect(homeTitle).toBeDefined();
   });
 
   it('deve renderizar o componente Sobre', () => {
     const { history } = renderWithRouter(<App />);
 
     const aboutLink = screen.getByRole('link', { name: 'Sobre' });
-    expect(aboutLink).toBeInTheDocument();
+    expect(aboutLink).toBeDefined();
     userEvent.click(aboutLink);
 
     const { pathname } = history.location;
@@ -26,7 +26,7 @@ describe('teste da aplicação toda', () => {
 
     const aboutTitle = screen.getByRole('heading',
       { name: 'Você está na página Sobre' });
-    expect(aboutTitle).toBeInTheDocument();
+    expect(aboutTitle).toBeDefined();
   });
 
   it('deve testar um caminho não existente e a renderização do Not Found', () => {
@@ -36,7 +36,7 @@ describe('teste da aplicação toda', () => {
 
     const notFoundTitle = screen.getByRole('heading',
       { name: 'Página não encontrada' });
-    expect(notFoundTitle).toBeInTheDocument();
+    expect(notFoundTitle).toBeDefined();
   });
 
   it('deve renderizar o componente About (apenas componente)', () => {
@@ -44,6 +44,6 @@ describe('teste da aplicação toda', () => {
   
     const aboutTitle = screen.getByRole('heading',
       { name: 'Você está na página Sobre' });
-    expect(aboutTitle).toBeInTheDocument();
+    expect(aboutTitle).toBeDefined();
   });
 });
