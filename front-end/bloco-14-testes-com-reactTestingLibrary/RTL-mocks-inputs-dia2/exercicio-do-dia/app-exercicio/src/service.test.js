@@ -7,4 +7,12 @@ describe('Testa se a funcao executa como esperado', () => {
         expect(service.randomNumber).toHaveBeenCalled();
         expect(service.randomNumber).toHaveBeenCalledTimes(1);
     });
+
+    it('Testa nova funcionalidade de divisao da funcao', () => {
+        service.randomNumber = jest.fn().mockImplementationOnce((a, b) => a / b);
+        expect(service.randomNumber(5, 5)).toBe(1);
+        expect(service.randomNumber).toHaveBeenCalled();
+        expect(service.randomNumber).toHaveBeenCalledTimes(1);
+        expect(service.randomNumber).toHaveBeenCalledWith(5, 5);
+    });
 });
