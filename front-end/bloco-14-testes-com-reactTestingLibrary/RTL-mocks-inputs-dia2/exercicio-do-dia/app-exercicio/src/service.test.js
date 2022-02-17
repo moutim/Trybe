@@ -92,3 +92,21 @@ describe('Testa reset de funcoes mockadas', () => {
     });
 });
 
+describe('Testa a funcao fetchAPI', () => {
+    it('Verifica se a funcao foi resolvida e retorna "request sucess"', async () => {
+        service.fetchAPI = jest.fn().mockResolvedValue("request sucess");
+
+        await expect(service.fetchAPI()).resolves.toBe('request sucess');
+        expect(service.fetchAPI).toHaveBeenCalled();
+        expect(service.fetchAPI).toHaveBeenCalledTimes(1);
+    })
+
+    it('Verifica se a funcao foi resolvida e retorna "request failed"', async () => {
+        service.fetchAPI = jest.fn().mockResolvedValue("request failed");
+
+        await expect(service.fetchAPI()).resolves.toBe('request failed');
+        expect(service.fetchAPI).toHaveBeenCalled();
+        expect(service.fetchAPI).toHaveBeenCalledTimes(1);
+    })
+})
+

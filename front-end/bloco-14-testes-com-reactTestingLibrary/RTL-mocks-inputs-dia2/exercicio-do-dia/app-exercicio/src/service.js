@@ -15,5 +15,12 @@ const firstCapitalLetter = string => string[0];
 // Elabore a terceira função: essa função deve receber duas strings e concatená-las.
 const concatenateStrings = (a, b) => a + b;
 
+// Crie uma função que faça requisição para a api dog pictures.
+const fetchAPI = async () => {
+    const result = fetch('https://dog.ceo/api/breeds/image/random');
+    const data = result.json();
+    return data;
+}
 
-module.exports = { randomNumber, toUpperCase, firstCapitalLetter, concatenateStrings };
+
+module.exports = { fetchAPI, randomNumber, toUpperCase, firstCapitalLetter, concatenateStrings };
