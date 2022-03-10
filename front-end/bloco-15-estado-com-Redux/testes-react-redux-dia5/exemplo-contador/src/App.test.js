@@ -39,7 +39,7 @@ describe('testing clicks', () => {
   });
 
   test('check the value of innital state', () => {
-    renderWithRedux(<App />, { initialState: { clickReducer: { counter: 5 }}});
+    renderWithRedux(<App />, { initialState: { counter: 5 }});
 
     expect(screen.getByText('4')).toBeInTheDocument();
   });
