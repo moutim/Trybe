@@ -110,24 +110,24 @@ O programa conta com mais de 1.500 horas de aulas práticas e teóricas, aborda 
 - [15-02-22:heavy_check_mark:] 15-1: _Testando React com a React Testing Library_
 - [16-02-22:heavy_check_mark:] 15-2: _Testando React com a React Testing Library - Parte 2_
 - [17-02-22:heavy_check_mark:] 15-2: _Testando ReactRouter com a React Testing Library
-- [ ] 15-3: _[Projeto - Testes em React]()_
+- [18-02-22:heavy_check_mark:] 15-3: _[Projeto - Testes em React](https://github.com/tryber/sd-018-a-project-react-testing-library/pull/25)_
 
 ##### Bloco 16: Introdução ao Redux
 
-- [ ] 16-1: _Introdução ao Redux_
-- [ ] 16-2: _React com Redux - Parte 1_
-- [ ] 16-3: _React com Redux - Prática_
-- [ ] 16-4: _React com Redux - Parte 2_
-- [ ] 16-5: _Testes síncronos com React-Redux_
-- [ ] 16-6: _[Projeto - Tabela com filtros de dados]()_
+- [23-02-22:heavy_check_mark:] 16-1: _Introdução ao Redux_
+- [24-02-22:heavy_check_mark:] 16-2: _React com Redux - Parte 1_
+- [25-02-22:heavy_check_mark:] 16-3: _React com Redux - Prática_
+- [28-02-22:heavy_check_mark:] 16-4: _React com Redux - Parte 2_
+- [01-03-22:heavy_check_mark:] 16-5: _Testes síncronos com React-Redux_
+- [04-03-22:heavy_check_mark:] 16-6: _[Projeto - TybeWallet](https://github.com/tryber/sd-018-a-project-trybewallet/pull/26)_
 
 ##### Bloco 17: Projeto React
 
-- [ ] 17-1: _[Projeto - Jogo de Trivia]()_
+- [09-03-22:heavy_check_mark:] 17-1: _[Projeto - Jogo de Trivia](https://github.com/tryber/sd-018-a-project-trivia-react-redux/tree/main-group-22)_
 
 ##### Bloco 18: React & Context API
 
-- [ ] 18-1: _Context API do React_
+- [16-03-22:heavy_check_mark:] 18-1: _Context API do React_
 - [ ] 18-2: _React Hooks - useState e useContext_
 - [ ] 18-3: _React Hooks - useEffect e Hooks customizados_
 - [ ] 18-4: _[Projeto - StarWars Datatable com Context API e Hooks]()_
