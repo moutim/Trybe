@@ -10,7 +10,7 @@ Esse projeto foi desenvolvido em grupo com a [Amanda Camille](https://github.com
 
 [Deploy](https://moutim-stats-spotify.herokuapp.com/)
 
-![image-20220219224639838](preview.png)
+![https://raw.githubusercontent.com/moutim/game-trivia-repo/main-group-22-fixes/preview.png](preview.png)
 
 ## Rodando o projeto
 
