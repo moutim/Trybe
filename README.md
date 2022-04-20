@@ -141,16 +141,18 @@ O programa conta com mais de 1.500 horas de aulas práticas e teóricas, aborda 
 ##### Bloco 19: Docker - Utilizando Containers
 
 - [11-04-22:heavy_check_mark:] 19-1: _Utilizando Containers - Docker_
-- [ ] 19-2: _Manipulação e Criação de Imagens no Docker_
-- [ ] 19-3: _Orquestrando Containers com Docker Compose_
-- [ ] 19-4: _[Projeto - Docker Todo-List]()_
+- [12-04-22:heavy_check_mark:] 19-2: _Manipulação e Criação de Imagens no Docker_
+- [13-04-22:heavy_check_mark:] 19-3: _Orquestrando Containers com Docker Compose_
+- [14-04-22:heavy_check_mark:] 19-4: _[Projeto - Docker Todo-List](https://github.com/tryber/sd-018-a-project-docker-todo-list/pull/54)_
 
-##### Bloco 20: Bancos de dados relacionais
+##### Bloco 20: Introdução à SQL
 
-- [ ] 20-1: _Funções mais usadas no SQL_
-- [ ] 20-2: _Descomplicando JOINs e UNIONs_
-- [ ] 20-3: _Stored Routines & Subqueries_
-- [ ] 20-4: _[Projeto - Vocabulary Booster]()_
+- [19-04-22:heavy_check_mark:] 20-1: _Introdução - Bancos de dados relacionais_
+- [19-04-22:heavy_check_mark:] 20-2: _Banco de dados SQL_
+- [20-04-22:heavy_check_mark:] 20-3: _Encontrando dados em um banco de dados_
+- [25-04-22:heavy_check_mark:] 20-3: _Filtrando dados de forma específica_
+- [26-04-22:heavy_check_mark:] 20-3: _Manipulando tabelas_
+- [26-04-22:heavy_check_mark:] 20-4: _[Projeto - All For One]()_
 
 ##### Bloco 21: Bancos de dados relacionais
 
