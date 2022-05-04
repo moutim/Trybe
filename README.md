@@ -152,14 +152,14 @@ O programa conta com mais de 1.500 horas de aulas práticas e teóricas, aborda 
 - [20-04-22:heavy_check_mark:] 20-3: _Encontrando dados em um banco de dados_
 - [25-04-22:heavy_check_mark:] 20-3: _Filtrando dados de forma específica_
 - [26-04-22:heavy_check_mark:] 20-3: _Manipulando tabelas_
-- [26-04-22:heavy_check_mark:] 20-4: _[Projeto - All For One]()_
+- [27-04-22:heavy_check_mark:] 20-4: _[Projeto - All For One](https://github.com/tryber/sd-018-a-mysql-all-for-one/pull/54)_
 
-##### Bloco 21: Bancos de dados relacionais
+##### Bloco 21: Funções SQL, JOINs e Normalização
 
-- [ ] 21-1: _Transformando ideias em um modelo de banco de dados_
-- [ ] 21-2: _Normalização, Formas Normais e Dumps_
-- [ ] 21-2: _Transformando ideias em um modelo de banco de dados - Parte 2_
-- [ ] 21-3: _[Projeto - One For All]()_
+- [02-05-22:heavy_check_mark:] 21-1: _Funções mais usadas no SQL_
+- [03-05-22:heavy_check_mark:] 21-2: _Descomplicando JOINs_
+- [04-05-22:heavy_check_mark:] 21-3: _Transformando ideias em um modelo de banco de dados_
+- [05-05-22:heavy_check_mark:] 21-4: _[Projeto - One For All]()_
 
 ##### Bloco 22: Introdução - NoSQL
 
