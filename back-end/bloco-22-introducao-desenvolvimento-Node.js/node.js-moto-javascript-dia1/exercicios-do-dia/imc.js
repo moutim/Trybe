@@ -32,5 +32,3 @@ function descricaoIMC(imc) {
 }
 
 console.log(descricaoIMC(resultadoIMC));
-
-// Crie um script para calcular a velocidade média de um carro numa corrida.
