@@ -159,13 +159,17 @@ O programa conta com mais de 1.500 horas de aulas práticas e teóricas, aborda 
 - [02-05-22:heavy_check_mark:] 21-1: _Funções mais usadas no SQL_
 - [03-05-22:heavy_check_mark:] 21-2: _Descomplicando JOINs_
 - [04-05-22:heavy_check_mark:] 21-3: _Transformando ideias em um modelo de banco de dados_
-- [05-05-22:heavy_check_mark:] 21-4: _[Projeto - One For All]()_
+- [05-05-22:heavy_check_mark:] 21-4: _[Projeto - One For All](https://github.com/moutim/spotify-simplified-db)_
 
-##### Bloco 22: Introdução - NoSQL
+##### Bloco 22: Introdução ao desenvolvimento Web com Node.js
 
-- [ ] 22-1: _MongoDB - Introdução_
-- [ ] 22-2: _Filter Operators_
-- [ ] 22-3: _[Projeto - Data Flights]()_
+- [09-05-22:heavy_check_mark:] 22-1: _Intro - Node.js_
+- [10-05-22:heavy_check_mark:] 22-1: _Node.js - Um motor JavaScript_
+- [11-05-22:heavy_check_mark:] 22-2: _Node.js - Fluxo Assíncrono_
+- [12-05-22:heavy_check_mark:] 22-3: _Mocha, Chai e Sinon - Testes de Back-end com Node.js_
+- [13-05-22:heavy_check_mark:] 22-3: _Express - HTTP com Node.js_
+- [16-05-22:heavy_check_mark:] 22-3: _Express - Middlewares_
+- [17-05-22:heavy_check_mark:] 22-3: _[Projeto - Talker Manager]()_
 
 ##### Bloco 23: Updates
 
