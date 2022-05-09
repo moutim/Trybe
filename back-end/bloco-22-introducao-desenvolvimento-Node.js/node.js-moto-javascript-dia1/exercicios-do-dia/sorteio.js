@@ -14,4 +14,4 @@ const sorteio = () => {
   console.log('Bye');
 }
 
-sorteio();
+module.exports = sorteio;

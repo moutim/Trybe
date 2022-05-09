@@ -6,17 +6,8 @@ const readline = require('readline-sync');
 // 🚀 Agora temos um problema: peso não é um número inteiro! Isso quer dizer que precisamos mudar um pouco a forma como solicitamos o input desse dado.
 // 🚀 Vamos sofisticar um pouco mais nosso script. Além de imprimir o IMC na tela, imprima também em qual categoria da tabela abaixo aquele IMC se enquadra:
 
-const altura = readline.questionFloat('Qual sua altura em metros?');
-const peso = readline.questionFloat('Qual seu peso em kg?');
-
-function IMC (altura, peso) {
-  return peso / (altura * altura)
-}
-
-const resultadoIMC = IMC(altura, peso).toFixed();
-
-function descricaoIMC(imc) {
-  const message = `Com uma altura de ${altura}m e peso ${75}kg, seu IMC é: ${resultadoIMC}.`;
+function descricaoIMC(imc, altura, peso) {
+  const message = `Com uma altura de ${altura}m e peso ${peso}kg, seu IMC é: ${imc}.`;
   if (imc < 18.5) {
     return `${message}. Voce esta magro.`;
   } else if (imc > 18.5 && imc < 24.9) {
@@ -31,4 +22,12 @@ function descricaoIMC(imc) {
   else return `${message}. Voce esta com obesidade grau III e IV`;
 }
 
-console.log(descricaoIMC(resultadoIMC));
+const medirIMC = () => {
+  const altura = readline.questionFloat('Qual sua altura em metros?');
+  const peso = readline.questionFloat('Qual seu peso em kg?');
+  const imc = peso / (altura * altura);
+  const resultadoIMC = IMC(imc, altura, peso).toFixed();
+  console.log(resultadoIMC);
+}
+
+module.exports = medirIMC;
