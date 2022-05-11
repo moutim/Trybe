@@ -1,0 +1,23 @@
+{
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0",
+    "sinon": "^14.0.0"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  },
+  "name": "aula-ao-vivo",
+  "version": "1.0.0",
+  "main": "calculaArea.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha tests"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
