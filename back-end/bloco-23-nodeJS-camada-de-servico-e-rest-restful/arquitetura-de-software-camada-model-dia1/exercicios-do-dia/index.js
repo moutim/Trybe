@@ -14,6 +14,12 @@ app.post('/users', middleware.verifyUserBody, async (req, res) => {
   res.status(201).json(req.body);
 });
 
+app.get('/users', async (req, res) => {
+  const users = await Users.getAll();
+
+  res.status(200).json(users);
+});
+
 app.use(middleware.handleError);
 
 const PORTA = 3000;
