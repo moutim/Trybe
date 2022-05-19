@@ -17,7 +17,18 @@ const getAll = async () => {
   return users;
 };
 
+const getById = async (id) => {
+  const query = 'SELECT * FROM model_example.users WHERE id=?';
+
+  const [user] = await connection.execute(
+    query, [id]
+  );
+
+  return user;
+}
+
 module.exports = {
   createUser,
-  getAll
+  getAll,
+  getById
 }

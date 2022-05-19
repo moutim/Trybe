@@ -17,7 +17,23 @@ app.post('/users', middleware.verifyUserBody, async (req, res) => {
 app.get('/users', async (req, res) => {
   const users = await Users.getAll();
 
+  if (users.length === 0) {
+    res.status(404).json({ message: 'Nao foi encontado usuarios nesse banco de dados'});
+  }
+
   res.status(200).json(users);
+});
+
+app.get('/users/:id', async (req, res) => {
+  const { id } = req.params;
+
+  const user = await Users.getById(id);
+
+  if (user.length === 0) {
+    res.status(404).json({ message: 'Usuario nao encontado' });
+  }
+
+  res.status(200).json(user);
 });
 
 app.use(middleware.handleError);
