@@ -171,12 +171,14 @@ O programa conta com mais de 1.500 horas de aulas práticas e teóricas, aborda 
 - [16-05-22:heavy_check_mark:] 22-3: _Express - Middlewares_
 - [17-05-22:heavy_check_mark:] 22-3: _[Projeto - Talker Manager]()_
 
-##### Bloco 23: Updates
+##### Bloco 23: Node.js: Camada de Serviço e Arquitetura Rest e Restful
 
-- [ ] 23-1: _Updates Simples_
-- [ ] 23-2: _Updates Complexos - Arrays - Parte 1_
-- [ ] 23-3: _Updates Complexos - Arrays - Parte 2_
-- [ ] 23-4: _[Projeto - Commerce]()_
+- [19-05-22:heavy_check_mark:] 23-1: _Introdução - Arquitetura de Software_
+- [19-05-22:heavy_check_mark:] 23-1: _Arquitetura de Software - Camada de Model_
+- [20-05-22:heavy_check_mark:] 23-2: _Arquitetura de Software - Camada de Controller e Service_
+- [23-05-22:heavy_check_mark:] 23-3: _Arquitetura Web - Rest e Restful_
+- [24-05-22:heavy_check_mark:] 23-4: _Arquitetura de Software - Testando as Camadas_
+- [25-05-22:heavy_check_mark:] 23-5: _[Projeto - Store Manager]()_
 
 ##### Bloco 24: Aggregation Framework
 
