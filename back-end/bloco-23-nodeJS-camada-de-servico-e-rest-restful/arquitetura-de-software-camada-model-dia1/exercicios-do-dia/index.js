@@ -36,6 +36,16 @@ app.get('/users/:id', async (req, res) => {
   res.status(200).json(user);
 });
 
+app.put('/users', middleware.verifyUserBody, async (req, res) => {
+  const { firstName, lastName, email, password, id } = req.body;
+
+  const result = await Users.updateUser(firstName, lastName, email, password, id);
+
+  if (!result) return res.status(404).json({ message: 'usuario nao encontrado' });
+
+  res.status(201).json(req.body);
+});
+
 app.use(middleware.handleError);
 
 const PORTA = 3000;

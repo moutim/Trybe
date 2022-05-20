@@ -25,10 +25,24 @@ const getById = async (id) => {
   );
 
   return user;
-}
+};
+
+const updateUser = async (firstName, lastName, email, password, id) => {
+  const verifyUser = await getById(id);
+  if (verifyUser.length === 0) return null;
+
+  const query = 'UPDATE model_example.users SET firstName=?, lastName=?, email=?, password=? WHERE id=?';
+  try {
+    await connection.execute(query, [firstName, lastName, email, password, id]);
+    return true;
+  } catch(e) {
+    throw new Error(JSON.stringify({ status: 403, message: 'Nao foi possivel atualizar o usuario'}))
+  }
+};
 
 module.exports = {
   createUser,
   getAll,
-  getById
+  getById,
+  updateUser
 }
