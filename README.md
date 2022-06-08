@@ -178,13 +178,16 @@ O programa conta com mais de 1.500 horas de aulas práticas e teóricas, aborda 
 - [20-05-22:heavy_check_mark:] 23-2: _Arquitetura de Software - Camada de Controller e Service_
 - [23-05-22:heavy_check_mark:] 23-3: _Arquitetura Web - Rest e Restful_
 - [24-05-22:heavy_check_mark:] 23-4: _Arquitetura de Software - Testando as Camadas_
-- [25-05-22:heavy_check_mark:] 23-5: _[Projeto - Store Manager]()_
+- [25-05-22:heavy_check_mark:] 23-5: _[Projeto - Store Manager](https://github.com/tryber/sd-018-a-store-manager/pull/61)_
 
-##### Bloco 24: Aggregation Framework
+##### Bloco 24: Node.js: ORM e Autenticação
 
-- [ ] 24-1: _Aggregation Framework - Part 1_
-- [ ] 24-2: _Aggregation Framework - Part 2_
-- [ ] 24-3: _[Projeto - Aggregations]()_
+- [06-06-22:heavy_check_mark:] 24-1: _Introdução - Node.js: ORM e Autenticação_
+- [06-06-22:heavy_check_mark:] 24-1: _ORM - Interface da aplicação com o banco de dados_
+- [07-06-22:heavy_check_mark:] 24-2: _ORM - Associations_
+- [08-06-22:heavy_check_mark:] 24-3: _JWT - (JSON Web Token)_
+- [09-06-22:heavy_check_mark:] 24-3: _Testando APIs com Testes de Integração_
+- [10-06-22:heavy_check_mark:] 24-2: _[Projeto - Aggregations]()_
 
 ##### Bloco 25: Intro - NodeJS
 
