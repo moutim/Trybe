@@ -169,7 +169,7 @@ O programa conta com mais de 1.500 horas de aulas práticas e teóricas, aborda 
 - [12-05-22:heavy_check_mark:] 22-3: _Mocha, Chai e Sinon - Testes de Back-end com Node.js_
 - [13-05-22:heavy_check_mark:] 22-3: _Express - HTTP com Node.js_
 - [16-05-22:heavy_check_mark:] 22-3: _Express - Middlewares_
-- [17-05-22:heavy_check_mark:] 22-3: _[Projeto - Talker Manager]()_
+- [17-05-22:heavy_check_mark:] 22-3: _[Projeto - Talker Manager](https://github.com/tryber/sd-018-a-project-talker-manager)_
 
 ##### Bloco 23: Node.js: Camada de Serviço e Arquitetura Rest e Restful
 
@@ -187,26 +187,30 @@ O programa conta com mais de 1.500 horas de aulas práticas e teóricas, aborda 
 - [07-06-22:heavy_check_mark:] 24-2: _ORM - Associations_
 - [08-06-22:heavy_check_mark:] 24-3: _JWT - (JSON Web Token)_
 - [09-06-22:heavy_check_mark:] 24-3: _Testando APIs com Testes de Integração_
-- [10-06-22:heavy_check_mark:] 24-2: _[Projeto - Aggregations]()_
+- [10-06-22:heavy_check_mark:] 24-2: _[Projeto - Blogs API](https://github.com/tryber/sd-018-a-project-blogs-api)_
 
-##### Bloco 25: Intro - NodeJS
+##### Bloco 25: Deployment
 
-- [ ] 25-1: _NodeJS - Introdução_
-- [ ] 25-2: _NodeJS - Fluxo Assíncrono_
-- [ ] 25-3: _NodeJS - Arquitetura_
-- [ ] 25-4: _[Projeto - A CLI of Ice and Fire]()_
+- [13-06-22:heavy_check_mark:] 25-1: _Introdução - Deploy_
+- [14-06-22:heavy_check_mark:] 25-1: _Infraestrutura - Deploy com Heroku_
+- [15-06-22:heavy_check_mark:] 25-2: _Deploy Docker & Heroku_
+- [16-06-22:heavy_check_mark:] 25-3: _[Projeto - Stranger Things]()_
 
-##### Bloco 26: NodeJS
+##### Bloco 26: TypeScript
 
-- [ ] 26-1: _Express: HTTP com Node.js_
-- [ ] 26-2: _Arquitetura de Software - Introdução ao MVC_
-- [ ] 26-3: _[Projeto - Cookmaster]()_
+- [20-06-22:heavy_check_mark:] 26-1: _Introdução - TypeScript_
+- [21-06-22:heavy_check_mark:] 26-2: _Tipagem Estática e Generics_
+- [22-06-22:heavy_check_mark:] 26-3: _Express com TypeScript_
+- [23-06-22:heavy_check_mark:] 26-4: _[Projeto - Trybesmith](https://github.com/tryber/sd-018-a-project-trybesmith)_
 
-##### Bloco 27: NodeJS
+##### Bloco 27: Programação Orientada a Objetos (POO) e SOLID
 
-- [ ] 27-1: _Arquitetura de Software - Camada de Serviço_
-- [ ] 27-2: _Arquitetura web - Rest e Restful_
-- [ ] 27-3: _[Projeto - Store Manager]()_
+- [11-07-22:heavy_check_mark:] 27-1: _Introdução à Orientação a Objetos_
+- [12-07-22:heavy_check_mark:] 27-2: _Herança e Interfaces_
+- [13-07-22:heavy_check_mark:] 27-2: _Polimorfismo_
+- [14-07-22:heavy_check_mark:] 27-2: _SOLID - Introdução e Princípios S, O e D_
+- [15-07-22:heavy_check_mark:] 27-2: _SOLID - Princípios L e I_
+- [18-07-22:heavy_check_mark:] 27-3: _[Projeto - Trybers and Dragons]()_
 
 ##### Bloco 28: NodeJS
 
